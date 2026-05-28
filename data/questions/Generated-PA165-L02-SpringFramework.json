@@ -1,0 +1,452 @@
+[
+  {
+    "id": "gen-l02-q1",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Who originally created the Spring Framework and in what year?",
+    "options": [
+      { "label": "A", "text": "James Gosling in 1995" },
+      { "label": "B", "text": "Rod Johnson in 2002" },
+      { "label": "C", "text": "Linus Torvalds in 2004" },
+      { "label": "D", "text": "Martin Fowler in 2000" }
+    ],
+    "correct": ["B"],
+    "explanation": "Spring was originally created by Rod Johnson in 2002, accompanying his book 'Expert One-on-One J2EE Design and Development'."
+  },
+  {
+    "id": "gen-l02-q2",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which of the following are challenges of 'life without Spring framework' mentioned in the lecture? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Manual dependency management" },
+      { "label": "B", "text": "Automatic garbage collection" },
+      { "label": "C", "text": "Boilerplate code" },
+      { "label": "D", "text": "Testing challenges" }
+    ],
+    "correct": ["A", "C", "D"],
+    "explanation": "The lecture lists manual dependency management, configuration complexity, boilerplate code, and testing challenges among issues without Spring."
+  },
+  {
+    "id": "gen-l02-q3",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which technologies are part of the Jakarta/Java EE specification?",
+    "options": [
+      { "label": "A", "text": "JDBC, JNDI, JTA, JMS" },
+      { "label": "B", "text": "Docker, Kubernetes, Helm" },
+      { "label": "C", "text": "JUnit, Mockito, AssertJ" },
+      { "label": "D", "text": "React, Angular, Vue" }
+    ],
+    "correct": ["A"],
+    "explanation": "Jakarta/Java EE specifies JDBC (database access), JNDI (directory services), JTA (transactions), and JMS (messaging)."
+  },
+  {
+    "id": "gen-l02-q4",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "In 2018, the Java EE specification moved from Oracle to which foundation, and what was the new name?",
+    "options": [
+      { "label": "A", "text": "Apache Foundation; Apache EE" },
+      { "label": "B", "text": "Eclipse Foundation; Jakarta EE" },
+      { "label": "C", "text": "Linux Foundation; Java EE 9" },
+      { "label": "D", "text": "OpenJDK Foundation; OpenEE" }
+    ],
+    "correct": ["B"],
+    "explanation": "In 2018 the specification moved from Oracle to the Eclipse Foundation and was rebranded as Jakarta EE."
+  },
+  {
+    "id": "gen-l02-q5",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which of the following are examples of application servers (not just web servers)? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "GlassFish" },
+      { "label": "B", "text": "Tomcat" },
+      { "label": "C", "text": "WildFly" },
+      { "label": "D", "text": "IBM WebSphere" }
+    ],
+    "correct": ["A", "C", "D"],
+    "explanation": "GlassFish (reference impl), WildFly, IBM WebSphere and Oracle WebLogic are application servers; Tomcat and Jetty are web servers."
+  },
+  {
+    "id": "gen-l02-q6",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which is the most common server choice for Spring applications, typically used as an embedded server when packaging as a .jar?",
+    "options": [
+      { "label": "A", "text": "GlassFish" },
+      { "label": "B", "text": "WildFly" },
+      { "label": "C", "text": "Tomcat" },
+      { "label": "D", "text": "Oracle WebLogic" }
+    ],
+    "correct": ["C"],
+    "explanation": "Tomcat is the most common choice for Spring apps, often the default embedded server when packaging as a .jar."
+  },
+  {
+    "id": "gen-l02-q7",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "What are advantages (Pros) of using an embedded server vs an external server? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Single object for deployment" },
+      { "label": "B", "text": "Easily test against server versions" },
+      { "label": "C", "text": "More flexible application architecture" },
+      { "label": "D", "text": "No dependency bloat" }
+    ],
+    "correct": ["A", "B"],
+    "explanation": "Embedded pros are single deployment object and easy testing against server versions. More flexibility is a pro of external servers, and dependency bloat is actually a con of embedded servers."
+  },
+  {
+    "id": "gen-l02-q8",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Inversion of Control (IoC) in Spring is also known as what?",
+    "options": [
+      { "label": "A", "text": "Dependency Injection (DI)" },
+      { "label": "B", "text": "Aspect Oriented Programming (AOP)" },
+      { "label": "C", "text": "Object Relational Mapping (ORM)" },
+      { "label": "D", "text": "Reflection" }
+    ],
+    "correct": ["A"],
+    "explanation": "The Spring container follows the Inversion of Control (IoC) design pattern, also known as Dependency Injection (DI)."
+  },
+  {
+    "id": "gen-l02-q9",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "By default, when does Spring create beans?",
+    "options": [
+      { "label": "A", "text": "Lazily, only when first requested" },
+      { "label": "B", "text": "Eagerly during startup" },
+      { "label": "C", "text": "When the application is shut down" },
+      { "label": "D", "text": "Only after the first HTTP request" }
+    ],
+    "correct": ["B"],
+    "explanation": "By default, Spring eagerly creates beans during startup."
+  },
+  {
+    "id": "gen-l02-q10",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which of the following are types of Dependency Injection in Spring? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Constructor Injection" },
+      { "label": "B", "text": "Setter Injection" },
+      { "label": "C", "text": "Field Injection" },
+      { "label": "D", "text": "Reflection Injection" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Spring supports Constructor, Setter, and Field injection. There is no 'Reflection Injection' type."
+  },
+  {
+    "id": "gen-l02-q11",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which injection type is recommended as best practice in Spring?",
+    "options": [
+      { "label": "A", "text": "Field Injection" },
+      { "label": "B", "text": "Setter Injection" },
+      { "label": "C", "text": "Constructor Injection" },
+      { "label": "D", "text": "Method Injection" }
+    ],
+    "correct": ["C"],
+    "explanation": "Constructor injection is recommended because it supports immutability, ensures required dependencies, and improves testability."
+  },
+  {
+    "id": "gen-l02-q12",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which are benefits of Constructor Injection? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Supports immutability" },
+      { "label": "B", "text": "Ensures all required dependencies are available" },
+      { "label": "C", "text": "Easier testing and maintenance" },
+      { "label": "D", "text": "Allows fields to be non-final" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Constructor injection enables immutability, integrity/clarity (no partially initialized objects), and easier testing. Fields can be final."
+  },
+  {
+    "id": "gen-l02-q13",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "What are the three types of metadata configuration in Spring?",
+    "options": [
+      { "label": "A", "text": "XML, Annotations, Code driven (Java Config)" },
+      { "label": "B", "text": "JSON, YAML, XML" },
+      { "label": "C", "text": "Properties, Environment, Profile" },
+      { "label": "D", "text": "Reflection, Annotations, Bytecode" }
+    ],
+    "correct": ["A"],
+    "explanation": "Spring offers three types of metadata configuration: XML, Annotations, and Code driven (Java Config)."
+  },
+  {
+    "id": "gen-l02-q14",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which are weaknesses of XML-based metadata configuration in Spring? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Lacks transparency" },
+      { "label": "B", "text": "Verbosity" },
+      { "label": "C", "text": "Difficult to maintain over time" },
+      { "label": "D", "text": "Tightly couples code to the DI framework" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "XML config has issues with transparency, verbosity, maintainability and refactoring. The tight coupling to the DI framework is more associated with field injection."
+  },
+  {
+    "id": "gen-l02-q15",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which annotations are proprietary Spring stereotype annotations? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "@Component" },
+      { "label": "B", "text": "@Service" },
+      { "label": "C", "text": "@Named" },
+      { "label": "D", "text": "@Repository" }
+    ],
+    "correct": ["A", "B", "D"],
+    "explanation": "@Component, @Service, @Repository, @Controller and @RestController are Spring proprietary annotations. @Named is from JSR-395."
+  },
+  {
+    "id": "gen-l02-q16",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which annotations are part of JSR-395 (standard Java annotations supported by Spring)?",
+    "options": [
+      { "label": "A", "text": "@Named and @Inject" },
+      { "label": "B", "text": "@Component and @Autowired" },
+      { "label": "C", "text": "@Bean and @Configuration" },
+      { "label": "D", "text": "@Service and @Repository" }
+    ],
+    "correct": ["A"],
+    "explanation": "JSR-395 standardizes @Named, @Inject and @Qualifier annotations."
+  },
+  {
+    "id": "gen-l02-q17",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which annotations are used in code-driven (Java Config) Spring configuration? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "@Configuration" },
+      { "label": "B", "text": "@Bean" },
+      { "label": "C", "text": "@ComponentScan" },
+      { "label": "D", "text": "@PersistenceContext" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "@Configuration, @Bean, @ComponentScan, @PropertySource and @Import are used for code-driven config. @PersistenceContext is JPA-related."
+  },
+  {
+    "id": "gen-l02-q18",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "How many times is each @Bean method evaluated in a @Configuration class?",
+    "options": [
+      { "label": "A", "text": "Only once" },
+      { "label": "B", "text": "Once per call site" },
+      { "label": "C", "text": "Once per request" },
+      { "label": "D", "text": "Every time it is invoked" }
+    ],
+    "correct": ["A"],
+    "explanation": "Each @Bean method is evaluated only once due to Spring's proxy mechanism around @Configuration classes."
+  },
+  {
+    "id": "gen-l02-q19",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "If both constructor and setter injection are used for the same dependency, which one will the IoC container favor?",
+    "options": [
+      { "label": "A", "text": "Constructor injection" },
+      { "label": "B", "text": "Setter injection" },
+      { "label": "C", "text": "It throws an error" },
+      { "label": "D", "text": "It depends on bean scope" }
+    ],
+    "correct": ["B"],
+    "explanation": "Setter injection overrides constructor injection - the IoC container favors setter injection if both are used."
+  },
+  {
+    "id": "gen-l02-q20",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which of the following are valid Spring bean scopes? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "singleton" },
+      { "label": "B", "text": "prototype" },
+      { "label": "C", "text": "request" },
+      { "label": "D", "text": "transient" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Spring bean scopes include singleton, prototype, request, session, and application. 'transient' is not a Spring scope."
+  },
+  {
+    "id": "gen-l02-q21",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "What is the default scope for a Spring bean?",
+    "options": [
+      { "label": "A", "text": "prototype" },
+      { "label": "B", "text": "singleton" },
+      { "label": "C", "text": "request" },
+      { "label": "D", "text": "session" }
+    ],
+    "correct": ["B"],
+    "explanation": "Singleton is the default scope: a single object instance per Spring IoC container."
+  },
+  {
+    "id": "gen-l02-q22",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "As a general rule, which scope should be used for stateful beans?",
+    "options": [
+      { "label": "A", "text": "singleton" },
+      { "label": "B", "text": "prototype" },
+      { "label": "C", "text": "application" },
+      { "label": "D", "text": "request" }
+    ],
+    "correct": ["B"],
+    "explanation": "Use prototype scope for stateful beans (each instance maintains its own state); use singleton for stateless beans."
+  },
+  {
+    "id": "gen-l02-q23",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which proxy mechanisms does Spring use to enable annotation-driven behavior? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "JDK Dynamic proxy" },
+      { "label": "B", "text": "CGLIB" },
+      { "label": "C", "text": "Java Native Interface (JNI)" },
+      { "label": "D", "text": "Runtime bytecode rewriting via JVMTI" }
+    ],
+    "correct": ["A", "B"],
+    "explanation": "Spring uses JDK Dynamic proxy (interface-based) and CGLIB (subclassing) for proxy generation."
+  },
+  {
+    "id": "gen-l02-q24",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "What is a key difference between JDK Dynamic Proxy and CGLIB?",
+    "options": [
+      { "label": "A", "text": "JDK proxy requires an interface; CGLIB creates proxies by subclassing" },
+      { "label": "B", "text": "CGLIB requires an interface; JDK proxy subclasses the target" },
+      { "label": "C", "text": "JDK proxy only works in Java 21+; CGLIB works in all versions" },
+      { "label": "D", "text": "Both require interfaces; CGLIB just runs faster" }
+    ],
+    "correct": ["A"],
+    "explanation": "JDK Dynamic proxies can only proxy interfaces, while CGLIB creates proxies by subclassing the target class - no interface needed."
+  },
+  {
+    "id": "gen-l02-q25",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Because CGLIB uses subclassing for proxies, what restriction must classes follow when used with such frameworks?",
+    "options": [
+      { "label": "A", "text": "Classes and proxied methods cannot be declared final" },
+      { "label": "B", "text": "Classes must extend java.lang.Object explicitly" },
+      { "label": "C", "text": "All fields must be public" },
+      { "label": "D", "text": "Classes must implement Serializable" }
+    ],
+    "correct": ["A"],
+    "explanation": "CGLIB cannot subclass final classes or override final methods, so you cannot declare proxied classes or methods as final."
+  },
+  {
+    "id": "gen-l02-q26",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which of the following make up the Core Container module group of the Spring Framework? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Beans" },
+      { "label": "B", "text": "Core" },
+      { "label": "C", "text": "Context" },
+      { "label": "D", "text": "SpEL" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "The Spring Core Container consists of Beans, Core, Context, and SpEL (Spring Expression Language)."
+  },
+  {
+    "id": "gen-l02-q27",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which Spring subproject provides comprehensive support for security scenarios like OAuth2 and OpenID Connect?",
+    "options": [
+      { "label": "A", "text": "Spring Batch" },
+      { "label": "B", "text": "Spring Security" },
+      { "label": "C", "text": "Spring Cloud" },
+      { "label": "D", "text": "Spring Integration" }
+    ],
+    "correct": ["B"],
+    "explanation": "Spring Security provides a comprehensive solution for security scenarios including OpenID Connect, OAuth2, authentication, and authorization."
+  },
+  {
+    "id": "gen-l02-q28",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "What are the ACID properties of a database transaction?",
+    "options": [
+      { "label": "A", "text": "Atomicity, Consistency, Isolation, Durability" },
+      { "label": "B", "text": "Availability, Consistency, Integrity, Durability" },
+      { "label": "C", "text": "Atomicity, Concurrency, Idempotency, Distribution" },
+      { "label": "D", "text": "Asynchronous, Concurrent, Isolated, Distributed" }
+    ],
+    "correct": ["A"],
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability."
+  },
+  {
+    "id": "gen-l02-q29",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which Spring transaction propagation modes describe correct behavior? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "REQUIRED: joins the caller's transaction or starts one if absent" },
+      { "label": "B", "text": "MANDATORY: must be called within an existing transaction, otherwise errors" },
+      { "label": "C", "text": "REQUIRES_NEW: always runs in its own transaction, suspending any existing one" },
+      { "label": "D", "text": "NEVER: must run inside an existing transaction" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "NEVER means the method must NOT be called within an existing transaction; doing so results in an error. The other three descriptions are correct."
+  },
+  {
+    "id": "gen-l02-q30",
+    "exam": "Generated-PA165-L02-SpringFramework",
+    "topic": "Spring Framework",
+    "tags": [],
+    "question": "Which isolation level is the lowest and allows dirty reads, phantom reads, and non-repeatable reads?",
+    "options": [
+      { "label": "A", "text": "ISOLATION_READ_COMMITTED" },
+      { "label": "B", "text": "ISOLATION_REPEATABLE_READ" },
+      { "label": "C", "text": "ISOLATION_READ_UNCOMMITTED" },
+      { "label": "D", "text": "ISOLATION_SERIALIZABLE" }
+    ],
+    "correct": ["C"],
+    "explanation": "ISOLATION_READ_UNCOMMITTED is the lowest level, permitting dirty reads, phantom reads and non-repeatable reads."
+  }
+]

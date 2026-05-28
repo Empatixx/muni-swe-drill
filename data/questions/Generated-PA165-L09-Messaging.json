@@ -1,0 +1,432 @@
+[
+  {
+    "id": "gen-l09-q1",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about synchronous communication are correct according to the lecture?",
+    "options": [
+      { "label": "A", "text": "The source system waits for a response and threads in both systems are blocked until the operation finishes." },
+      { "label": "B", "text": "It is typically represented by APIs such as REST, SOAP web services or undefined HTTP APIs." },
+      { "label": "C", "text": "A large number of long-running requests can consume the thread pool or cause out-of-memory errors." },
+      { "label": "D", "text": "The source system does not depend on the availability or load of the target system." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Synchronous communication blocks threads in both systems while waiting for a response, is typically expressed via REST/SOAP/HTTP APIs, and overloads can exhaust resources. Independence from target availability is a property of asynchronous communication."
+  },
+  {
+    "id": "gen-l09-q2",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which of the following is the best definition of messaging according to the lecture?",
+    "options": [
+      { "label": "A", "text": "A technology that enables high-speed, asynchronous communication with reliable delivery." },
+      { "label": "B", "text": "A synchronous request/response protocol over HTTP for distributed systems." },
+      { "label": "C", "text": "A relational data storage mechanism used to persist transactions." },
+      { "label": "D", "text": "A frontend rendering technique used by web browsers." }
+    ],
+    "correct": ["A"]
+  },
+  {
+    "id": "gen-l09-q3",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements correctly describe asynchronous communication?",
+    "options": [
+      { "label": "A", "text": "The source system does not need to wait for a response." },
+      { "label": "B", "text": "Threads in both systems are not blocked during the communication." },
+      { "label": "C", "text": "It is typically represented by message brokers." },
+      { "label": "D", "text": "It is the recommended choice for public APIs and web clients." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Asynchronous communication is not well suited for public APIs and web clients - one of its listed cons."
+  },
+  {
+    "id": "gen-l09-q4",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which of the following are listed as cons of asynchronous communication?",
+    "options": [
+      { "label": "A", "text": "More complicated architecture and infrastructure, possibly higher maintenance cost." },
+      { "label": "B", "text": "Not well suitable for public API and web clients." },
+      { "label": "C", "text": "Less friendly for users because there is no immediate result." },
+      { "label": "D", "text": "Poor scalability and reliability compared to synchronous calls." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q5",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "In a messaging system, what is a 'channel' also known as?",
+    "options": [
+      { "label": "A", "text": "A queue." },
+      { "label": "B", "text": "A pipeline." },
+      { "label": "C", "text": "A broker." },
+      { "label": "D", "text": "A socket." }
+    ],
+    "correct": ["A"],
+    "explanation": "Channels, also known as queues, are logical pathways that connect the programs and convey messages."
+  },
+  {
+    "id": "gen-l09-q6",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "What is a message broker?",
+    "options": [
+      { "label": "A", "text": "Middleware software that acts as an intermediary between different applications." },
+      { "label": "B", "text": "A Java class that converts JSON to XML." },
+      { "label": "C", "text": "A database engine for storing relational data." },
+      { "label": "D", "text": "A REST client that polls remote endpoints." }
+    ],
+    "correct": ["A"]
+  },
+  {
+    "id": "gen-l09-q7",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about using a relational database instead of a message broker are correct?",
+    "options": [
+      { "label": "A", "text": "It can have less complicated architecture and lower maintenance cost." },
+      { "label": "B", "text": "It can suffer performance issues when handling high volumes of messages." },
+      { "label": "C", "text": "It does not natively support message routing or transformation." },
+      { "label": "D", "text": "It is always preferable to a message broker for distributed systems." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q8",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about the JMS API are true?",
+    "options": [
+      { "label": "A", "text": "It is a Java API for sending and receiving messages between distributed Java applications." },
+      { "label": "B", "text": "It was originally part of the Java EE standard." },
+      { "label": "C", "text": "It defines producers and consumers as the two types of clients." },
+      { "label": "D", "text": "It implements its own wire protocol that all JMS providers must use." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "JMS does not implement any specific protocols; it is just a set of interfaces that providers like ActiveMQ implement."
+  },
+  {
+    "id": "gen-l09-q9",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which of the following are listed as parts of JMS?",
+    "options": [
+      { "label": "A", "text": "JMS client." },
+      { "label": "B", "text": "Message." },
+      { "label": "C", "text": "JMS Provider." },
+      { "label": "D", "text": "Destination (Queue)." },
+      { "label": "E", "text": "Servlet container." }
+    ],
+    "correct": ["A", "B", "C", "D"]
+  },
+  {
+    "id": "gen-l09-q10",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which of these is described as the most used message protocol and a binary protocol for message-oriented middleware?",
+    "options": [
+      { "label": "A", "text": "AQMP" },
+      { "label": "B", "text": "MQTT" },
+      { "label": "C", "text": "STOMP" },
+      { "label": "D", "text": "HTTP" }
+    ],
+    "correct": ["A"]
+  },
+  {
+    "id": "gen-l09-q11",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Match the protocol with its typical use case as described in the lecture: which mappings are correct?",
+    "options": [
+      { "label": "A", "text": "MQTT is a lightweight protocol often used in IoT applications." },
+      { "label": "B", "text": "STOMP is a text-based protocol commonly used in web-based messaging systems." },
+      { "label": "C", "text": "AQMP is commonly used for sending JSON messages within a distributed system." },
+      { "label": "D", "text": "MQTT is primarily used for SOAP web services." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q12",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements describe the Push-Pull delivery strategy?",
+    "options": [
+      { "label": "A", "text": "Each message is delivered to only one single consumer." },
+      { "label": "B", "text": "If the consumer is not available, messages are stored in the queue." },
+      { "label": "C", "text": "If there are more than one consumer, the message is delivered to all of them." },
+      { "label": "D", "text": "The message broker should support persistence of messages." }
+    ],
+    "correct": ["A", "B", "D"]
+  },
+  {
+    "id": "gen-l09-q13",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements describe the Publish-Subscribe delivery strategy?",
+    "options": [
+      { "label": "A", "text": "Each message is delivered to all subscriptions." },
+      { "label": "B", "text": "If the consumer is not available or not subscribed, messages are dropped." },
+      { "label": "C", "text": "The destination is also called a topic." },
+      { "label": "D", "text": "Each message is always delivered to exactly one single consumer." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q14",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements correctly describe the Request-Reply messaging pattern?",
+    "options": [
+      { "label": "A", "text": "The source system sends a request to the target through one queue and receives a response through another." },
+      { "label": "B", "text": "Each pair of request and response has a unique id." },
+      { "label": "C", "text": "It can be implemented as either synchronous or asynchronous communication." },
+      { "label": "D", "text": "It requires that the response be sent over HTTP only." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q15",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about Apache ActiveMQ Artemis are correct?",
+    "options": [
+      { "label": "A", "text": "It is an open-source broker that supports protocols such as AMQP, MQTT, STOMP and others." },
+      { "label": "B", "text": "It provides message persistence and load balancing." },
+      { "label": "C", "text": "ActiveMQ Artemis is derived from the original ActiveMQ and is significantly faster than ActiveMQ classic." },
+      { "label": "D", "text": "It does not support any persistence mechanism." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q16",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about Apache Kafka are correct according to the lecture?",
+    "options": [
+      { "label": "A", "text": "It is a high-performance streaming platform, not a traditional message broker." },
+      { "label": "B", "text": "It does not support JMS or message broker protocols such as AQMP." },
+      { "label": "C", "text": "It is based on a publish-subscribe messaging model." },
+      { "label": "D", "text": "It is highly scalable and fault-tolerant with data replication." }
+    ],
+    "correct": ["A", "B", "C", "D"]
+  },
+  {
+    "id": "gen-l09-q17",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "In Apache Kafka, what is the sequential identifier assigned to each message inside a partition called?",
+    "options": [
+      { "label": "A", "text": "Offset" },
+      { "label": "B", "text": "Partition key" },
+      { "label": "C", "text": "Topic id" },
+      { "label": "D", "text": "Group id" }
+    ],
+    "correct": ["A"]
+  },
+  {
+    "id": "gen-l09-q18",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about Kafka topics, partitions and ordering are correct?",
+    "options": [
+      { "label": "A", "text": "A topic is a materialized event stream divided into several partitions." },
+      { "label": "B", "text": "Messages within a partition are ordered (guaranteed)." },
+      { "label": "C", "text": "Messages are sometimes called events." },
+      { "label": "D", "text": "Each topic can only have a single partition." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q19",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about Kafka consumer groups are correct?",
+    "options": [
+      { "label": "A", "text": "A single topic can be consumed in parallel by multiple consumers in the same consumer group." },
+      { "label": "B", "text": "A consumer group is identified by a group id." },
+      { "label": "C", "text": "A single topic can be consumed by multiple consumer groups." },
+      { "label": "D", "text": "Different consumer groups cannot read from the same topic." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q20",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which Spring JMS component handles the creation and release of resources when sending or synchronously receiving messages?",
+    "options": [
+      { "label": "A", "text": "JmsTemplate" },
+      { "label": "B", "text": "ConnectionFactory" },
+      { "label": "C", "text": "JmsListener" },
+      { "label": "D", "text": "MessageConverter" }
+    ],
+    "correct": ["A"]
+  },
+  {
+    "id": "gen-l09-q21",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which Spring JMS parts are described in the lecture?",
+    "options": [
+      { "label": "A", "text": "ConnectionFactory - establishes a connection to a JMS provider." },
+      { "label": "B", "text": "JmsListener - acts as an asynchronous event handler for messages." },
+      { "label": "C", "text": "Message Converter - defines conversion to a preferred message format such as JSON." },
+      { "label": "D", "text": "Destination Management - mandatory component for every Spring JMS application." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Destination Management is optional and used only for manual destination setting."
+  },
+  {
+    "id": "gen-l09-q22",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which Spring annotation enables support for @JmsListener in the configuration?",
+    "options": [
+      { "label": "A", "text": "@EnableJms" },
+      { "label": "B", "text": "@EnableMessaging" },
+      { "label": "C", "text": "@EnableAsync" },
+      { "label": "D", "text": "@JmsConfig" }
+    ],
+    "correct": ["A"]
+  },
+  {
+    "id": "gen-l09-q23",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about ActiveMQ Artemis modes in Spring Boot are correct?",
+    "options": [
+      { "label": "A", "text": "Spring supports two modes: native and embedded." },
+      { "label": "B", "text": "In native mode, the connection address must be specified in the configuration file (application.yaml/properties)." },
+      { "label": "C", "text": "The message broker can be secured with authentication." },
+      { "label": "D", "text": "Embedded mode requires no additional Maven dependencies." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "In embedded mode, the artemis-jakarta-server dependency must be included in pom.xml."
+  },
+  {
+    "id": "gen-l09-q24",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about JMS temporary destinations are correct?",
+    "options": [
+      { "label": "A", "text": "They can be created programmatically through the JMS API." },
+      { "label": "B", "text": "They can be consumed only by the connection that created them." },
+      { "label": "C", "text": "They exist until the JMS connection is closed or the destination is explicitly deleted." },
+      { "label": "D", "text": "They persist indefinitely independently of the JMS connection lifecycle." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q25",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statement correctly describes the PERSISTENT delivery mode in JMS?",
+    "options": [
+      { "label": "A", "text": "The message is stored in persistent storage to guarantee it is not lost in case of failure; this is the default mode." },
+      { "label": "B", "text": "The message is held only in memory with less overhead but can be lost." },
+      { "label": "C", "text": "The message is encrypted before being stored to disk." },
+      { "label": "D", "text": "PERSISTENT mode disables acknowledgement entirely." }
+    ],
+    "correct": ["A"]
+  },
+  {
+    "id": "gen-l09-q26",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about ActiveMQ message redelivery are correct?",
+    "options": [
+      { "label": "A", "text": "The default value of maximumRedeliveries is 6." },
+      { "label": "B", "text": "The default redeliveryDelay value is 1000." },
+      { "label": "C", "text": "If redelivery is not successful, messages are stored in a dead-letter queue (DLQ) by default." },
+      { "label": "D", "text": "The DLQ should always be used even when message ordering matters." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Do not use DLQ when the application is dependent on message ordering."
+  },
+  {
+    "id": "gen-l09-q27",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about JMS message priority are correct?",
+    "options": [
+      { "label": "A", "text": "JMS has 10 priority levels from 0 to 9, where 0 is the lowest and 9 is the highest." },
+      { "label": "B", "text": "Priorities 0-4 are considered normal, while 5-9 are considered higher priority." },
+      { "label": "C", "text": "If priority is not specified, JMS assigns a default priority to each message." },
+      { "label": "D", "text": "There are only 5 priority levels in JMS." }
+    ],
+    "correct": ["A", "B", "C"]
+  },
+  {
+    "id": "gen-l09-q28",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about JMS acknowledge modes are correct?",
+    "options": [
+      { "label": "A", "text": "AUTO_ACKNOWLEDGE is the default and provides automatic acknowledgement without reliability guarantees." },
+      { "label": "B", "text": "DUPS_OK_ACKNOWLEDGE allows the JMS Server to deliver messages more than once for better performance." },
+      { "label": "C", "text": "CLIENT_ACKNOWLEDGE requires JMS clients to acknowledge by calling the message's acknowledge() method." },
+      { "label": "D", "text": "Once a message is acknowledged, it is finally dropped." }
+    ],
+    "correct": ["A", "B", "C", "D"]
+  },
+  {
+    "id": "gen-l09-q29",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about distributed (global) transactions are correct?",
+    "options": [
+      { "label": "A", "text": "They are used across multiple resources and typically rely on the Two-Phase Commit (2PC) algorithm." },
+      { "label": "B", "text": "XA is a communication architecture that allows applications to share resources from multiple resource managers in global transactions." },
+      { "label": "C", "text": "JTA is a high-level API defining interfaces between a transaction manager and parties involved in distributed transactions." },
+      { "label": "D", "text": "They are simpler and faster than local transactions because of unified disk writes." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Distributed transactions are more complicated and slower than local transactions due to architecture and multiple disk writes."
+  },
+  {
+    "id": "gen-l09-q30",
+    "exam": "Generated-PA165-L09-Messaging",
+    "topic": "Messaging",
+    "tags": [],
+    "question": "Which statements about messaging system monitoring are correct according to the lecture?",
+    "options": [
+      { "label": "A", "text": "ActiveMQ provides a web-based administration tool called 'Web Console'." },
+      { "label": "B", "text": "The default URL for the ActiveMQ Web Console is http://localhost:8161/admin." },
+      { "label": "C", "text": "ActiveMQ also provides a RESTful interface to its JMX." },
+      { "label": "D", "text": "Apache Kafka ships with a built-in embedded monitoring UI by default." }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Apache Kafka does not provide any embedded monitoring tool, but third-party tools such as Kafka UI are available."
+  }
+]

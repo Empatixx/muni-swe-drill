@@ -1,0 +1,458 @@
+[
+  {
+    "id": "gen-l11-q1",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which of the following correctly describe authentication and authorization as defined in the lecture?",
+    "options": [
+      { "label": "A", "text": "Authentication is the validation of identity" },
+      { "label": "B", "text": "Authorization is the specification of access rights" },
+      { "label": "C", "text": "Access control means enforcing access policy in real time" },
+      { "label": "D", "text": "Authentication and authorization are synonyms" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Authentication validates identity, authorization specifies access rights, and access control enforces the policy in real time."
+  },
+  {
+    "id": "gen-l11-q2",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which of the following are authentication options on the Internet mentioned in the lecture?",
+    "options": [
+      { "label": "A", "text": "Passwords (HTML form, HTTP BASIC)" },
+      { "label": "B", "text": "Asymmetric cryptography (ssh keys, X509, passkeys/WebAuthN/FIDO)" },
+      { "label": "C", "text": "Kerberos (symmetric-key cryptography)" },
+      { "label": "D", "text": "Federated identity (SAML, OAuth 2, OIDC)" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "All listed are valid Internet authentication options per the lecture."
+  },
+  {
+    "id": "gen-l11-q3",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which password hashing/storage approach does the lecture recommend an identity provider should use?",
+    "options": [
+      { "label": "A", "text": "Plain text" },
+      { "label": "B", "text": "MD5 hashing" },
+      { "label": "C", "text": "Argon2 key derivation function" },
+      { "label": "D", "text": "PBKDF2" }
+    ],
+    "correct": ["C"],
+    "explanation": "Argon2 won the Password Hashing Competition in 2015 and is recommended for storing passwords."
+  },
+  {
+    "id": "gen-l11-q4",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "According to the lecture, what should an application developer do about storing passwords?",
+    "options": [
+      { "label": "A", "text": "Store them hashed with MD5" },
+      { "label": "B", "text": "Do not store passwords; outsource authentication to a federated identity provider" },
+      { "label": "C", "text": "Store them in plain text for performance" },
+      { "label": "D", "text": "Encrypt them with a symmetric key" }
+    ],
+    "correct": ["B"],
+    "explanation": "The lecture advises developers to outsource authentication to a federated identity provider rather than storing passwords."
+  },
+  {
+    "id": "gen-l11-q5",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which parties are involved in a SAML federation as described in the lecture?",
+    "options": [
+      { "label": "A", "text": "User" },
+      { "label": "B", "text": "WAYF service" },
+      { "label": "C", "text": "Identity Provider (IdP)" },
+      { "label": "D", "text": "Service Provider (SP)" },
+      { "label": "E", "text": "Token endpoint" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "SAML involves user, WAYF, IdP, and SP. Token endpoint is an OAuth 2 concept."
+  },
+  {
+    "id": "gen-l11-q6",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which of the following are SAML attributes provided by eduID.cz IdPs?",
+    "options": [
+      { "label": "A", "text": "cn, givenName, sn" },
+      { "label": "B", "text": "mail" },
+      { "label": "C", "text": "eduPersonPrincipalName" },
+      { "label": "D", "text": "client_secret" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "eduID.cz IdPs provide cn/givenName/sn, mail, eduPersonPrincipalName, and eduPersonAffiliation. client_secret is OAuth 2 terminology."
+  },
+  {
+    "id": "gen-l11-q7",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "What is SAML based on?",
+    "options": [
+      { "label": "A", "text": "JSON messages over HTTP" },
+      { "label": "B", "text": "XML messages" },
+      { "label": "C", "text": "Binary protocol over TCP" },
+      { "label": "D", "text": "YAML over WebSocket" }
+    ],
+    "correct": ["B"],
+    "explanation": "SAML (Security Assertion Markup Language) is based on XML messages."
+  },
+  {
+    "id": "gen-l11-q8",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which RFC defines the OAuth 2.0 Authorization Framework and in which year was it released?",
+    "options": [
+      { "label": "A", "text": "RFC 6749, released in 2012" },
+      { "label": "B", "text": "RFC 7519, released in 2015" },
+      { "label": "C", "text": "RFC 8252, released in 2017" },
+      { "label": "D", "text": "RFC 4648, released in 2006" }
+    ],
+    "correct": ["A"],
+    "explanation": "OAuth 2.0 is defined by RFC 6749, released in 2012."
+  },
+  {
+    "id": "gen-l11-q9",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which parties are involved in OAuth 2?",
+    "options": [
+      { "label": "A", "text": "Resource owner" },
+      { "label": "B", "text": "Resource server (RS)" },
+      { "label": "C", "text": "Client" },
+      { "label": "D", "text": "Authorization server (AS)" },
+      { "label": "E", "text": "WAYF service" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "OAuth 2 involves the resource owner, resource server, client and authorization server. WAYF is SAML-specific."
+  },
+  {
+    "id": "gen-l11-q10",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "In OAuth 2, what is a \"scope\"?",
+    "options": [
+      { "label": "A", "text": "A permission for a set of operations checked by the resource server via the access token" },
+      { "label": "B", "text": "A user attribute returned by an IdP" },
+      { "label": "C", "text": "The signature algorithm of a JWT" },
+      { "label": "D", "text": "A URL of the introspection endpoint" }
+    ],
+    "correct": ["A"],
+    "explanation": "Scopes represent sets of permissions the resource server checks against the access token."
+  },
+  {
+    "id": "gen-l11-q11",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which OAuth 2 client types are considered public (cannot keep secrets)?",
+    "options": [
+      { "label": "A", "text": "Server-side web applications" },
+      { "label": "B", "text": "JavaScript apps running in browsers (user-agent-based apps)" },
+      { "label": "C", "text": "Native apps (CLI/desktop/mobile)" },
+      { "label": "D", "text": "Input-constrained devices (smart TVs, printers, IoT)" }
+    ],
+    "correct": ["B", "C", "D"],
+    "explanation": "Server-side web apps are confidential; user-agent-based, native, and input-constrained devices are public clients."
+  },
+  {
+    "id": "gen-l11-q12",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which OAuth 2 authorization grant types are marked as deprecated in the lecture?",
+    "options": [
+      { "label": "A", "text": "Implicit grant" },
+      { "label": "B", "text": "Resource Owner Password Credentials grant" },
+      { "label": "C", "text": "Authorization Code grant" },
+      { "label": "D", "text": "Authorization Code with PKCE" }
+    ],
+    "correct": ["A", "B"],
+    "explanation": "Implicit and Resource Owner Password Credentials grants are deprecated. Authorization Code (with or without PKCE) is recommended."
+  },
+  {
+    "id": "gen-l11-q13",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "What does PKCE in OAuth 2 stand for and what attack does it prevent?",
+    "options": [
+      { "label": "A", "text": "Proof Key for Code Exchange; prevents an attacker from using a stolen authorization code" },
+      { "label": "B", "text": "Public Key Certificate Encryption; prevents man-in-the-middle on TLS" },
+      { "label": "C", "text": "Private Key Client Exchange; prevents replay of refresh tokens" },
+      { "label": "D", "text": "Proof of Client Encryption; prevents CSRF" }
+    ],
+    "correct": ["A"],
+    "explanation": "PKCE stands for Proof Key for Code Exchange and prevents reuse of a stolen authorization code."
+  },
+  {
+    "id": "gen-l11-q14",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which statements about OAuth 2 refresh tokens (best practice) are correct?",
+    "options": [
+      { "label": "A", "text": "Access tokens should be short-lived (like 1 hour)" },
+      { "label": "B", "text": "A refresh token can be used at most once (rotation)" },
+      { "label": "C", "text": "Exchanging a refresh token yields a new pair: access token and new refresh token" },
+      { "label": "D", "text": "Refresh tokens are intended to be permanent and never rotated" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Best practice is short-lived access tokens with refresh token rotation: each refresh token is used once and returns a new access+refresh pair."
+  },
+  {
+    "id": "gen-l11-q15",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which OAuth 2 grant type is intended for devices without keyboards or browsers?",
+    "options": [
+      { "label": "A", "text": "Implicit grant" },
+      { "label": "B", "text": "Device Code grant" },
+      { "label": "C", "text": "Authorization Code grant" },
+      { "label": "D", "text": "Resource Owner Password Credentials grant" }
+    ],
+    "correct": ["B"],
+    "explanation": "The Device Code grant is designed for devices that lack keyboards or browsers."
+  },
+  {
+    "id": "gen-l11-q16",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "What is the structure of a JWS (JSON Web Signature)?",
+    "options": [
+      { "label": "A", "text": "<header>.<payload>.<signature> with each part base64url encoded" },
+      { "label": "B", "text": "A single XML document signed with XMLDSig" },
+      { "label": "C", "text": "<header>:<payload>:<signature> in JSON" },
+      { "label": "D", "text": "A base64-encoded ZIP archive" }
+    ],
+    "correct": ["A"],
+    "explanation": "JWS is a string of three base64url-encoded parts separated by dots: header.payload.signature."
+  },
+  {
+    "id": "gen-l11-q17",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which JOSE header parameters were listed in the lecture?",
+    "options": [
+      { "label": "A", "text": "alg (algorithm, e.g. RS256, ES256)" },
+      { "label": "B", "text": "kid (key ID)" },
+      { "label": "C", "text": "jku (JWK Set URL)" },
+      { "label": "D", "text": "typ and cty (MIME types)" },
+      { "label": "E", "text": "iss (issuer)" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "alg, kid, jku, typ, cty are JOSE header parameters; iss is a JWT claim, not a JOSE header parameter."
+  },
+  {
+    "id": "gen-l11-q18",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which of the following are registered JWT claims (RFC 7519)?",
+    "options": [
+      { "label": "A", "text": "iss (issuer)" },
+      { "label": "B", "text": "sub (subject)" },
+      { "label": "C", "text": "exp (expiration time)" },
+      { "label": "D", "text": "aud (audience)" },
+      { "label": "E", "text": "alg (algorithm)" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "iss, sub, exp, aud, iat, nbf, jti are registered JWT claims. alg is a JOSE header parameter."
+  },
+  {
+    "id": "gen-l11-q19",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "According to the lecture warning, why should JWTs not be used for user sessions?",
+    "options": [
+      { "label": "A", "text": "They cannot be revoked before they expire, so logout doesn't really log out" },
+      { "label": "B", "text": "They may contain stale data (e.g. removed user roles)" },
+      { "label": "C", "text": "Blocking a user does not immediately block them" },
+      { "label": "D", "text": "They are too small to store user data" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "JWTs cannot be revoked before expiry, leading to stale logout, stale roles and delayed blocking."
+  },
+  {
+    "id": "gen-l11-q20",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "How is OpenID Connect described in the lecture?",
+    "options": [
+      { "label": "A", "text": "A thin federated identity layer on top of OAuth 2.0" },
+      { "label": "B", "text": "A replacement for OAuth 2 with a different transport" },
+      { "label": "C", "text": "An XML-based SAML profile" },
+      { "label": "D", "text": "A symmetric-key Kerberos extension" }
+    ],
+    "correct": ["A"],
+    "explanation": "OIDC is a thin federated identity layer built on top of OAuth 2.0."
+  },
+  {
+    "id": "gen-l11-q21",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which are standardized OpenID Connect scopes?",
+    "options": [
+      { "label": "A", "text": "openid" },
+      { "label": "B", "text": "email" },
+      { "label": "C", "text": "profile" },
+      { "label": "D", "text": "address" },
+      { "label": "E", "text": "phone" }
+    ],
+    "correct": ["A", "B", "C", "D", "E"],
+    "explanation": "openid, email, profile, address, and phone are all standardized OIDC scopes."
+  },
+  {
+    "id": "gen-l11-q22",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "In OpenID Connect terminology, what are the OAuth 2.0 clients and authorization servers called?",
+    "options": [
+      { "label": "A", "text": "Clients are Relying Parties (RPs), servers are OpenID Providers (OPs)" },
+      { "label": "B", "text": "Clients are Service Providers (SPs), servers are Identity Providers (IdPs)" },
+      { "label": "C", "text": "Clients are Verifiers, servers are Issuers" },
+      { "label": "D", "text": "Clients are Subjects, servers are Audiences" }
+    ],
+    "correct": ["A"],
+    "explanation": "OIDC calls the OAuth client a Relying Party (RP) and the authorization server an OpenID Provider (OP)."
+  },
+  {
+    "id": "gen-l11-q23",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "At which well-known URL does an OIDC provider publish its server metadata?",
+    "options": [
+      { "label": "A", "text": "/oauth2/metadata" },
+      { "label": "B", "text": "/.well-known/openid-configuration" },
+      { "label": "C", "text": "/oidc/info.json" },
+      { "label": "D", "text": "/api/v1/discovery" }
+    ],
+    "correct": ["B"],
+    "explanation": "OIDC server metadata is published at /.well-known/openid-configuration."
+  },
+  {
+    "id": "gen-l11-q24",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which Spring Boot starter dependency is used for an OAuth2/OIDC client?",
+    "options": [
+      { "label": "A", "text": "spring-boot-starter-security-oauth2-client" },
+      { "label": "B", "text": "spring-boot-starter-security-oauth2-resource-server" },
+      { "label": "C", "text": "spring-boot-starter-webmvc" },
+      { "label": "D", "text": "spring-boot-starter-thymeleaf" }
+    ],
+    "correct": ["A"],
+    "explanation": "The OAuth2/OIDC client starter is spring-boot-starter-security-oauth2-client; the resource server starter is a different artifact."
+  },
+  {
+    "id": "gen-l11-q25",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "According to the lecture, why are external OAuth2 resource servers not possible with Google as the authorization server?",
+    "options": [
+      { "label": "A", "text": "Google does not provide an Introspection endpoint and its access token is opaque" },
+      { "label": "B", "text": "Google only supports SAML" },
+      { "label": "C", "text": "Google access tokens are always JWTs that cannot be parsed" },
+      { "label": "D", "text": "Google requires mutual TLS for all resource servers" }
+    ],
+    "correct": ["A"],
+    "explanation": "Without an introspection endpoint and with opaque tokens, an external RS cannot validate Google's access tokens."
+  },
+  {
+    "id": "gen-l11-q26",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which claim is REQUIRED in an OAuth 2 introspection response (RFC 7662)?",
+    "options": [
+      { "label": "A", "text": "sub" },
+      { "label": "B", "text": "active" },
+      { "label": "C", "text": "exp" },
+      { "label": "D", "text": "jti" }
+    ],
+    "correct": ["B"],
+    "explanation": "Only the 'active' claim is required by RFC 7662; others are optional."
+  },
+  {
+    "id": "gen-l11-q27",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which mechanisms can prevent CSRF / XSRF attacks?",
+    "options": [
+      { "label": "A", "text": "Synchronizer token pattern (secret value per request/session)" },
+      { "label": "B", "text": "Cookie-to-header token (JS reads cookie and sends value in a custom header)" },
+      { "label": "C", "text": "Session cookies with SameSite=strict" },
+      { "label": "D", "text": "Storing passwords in plain text" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Synchronizer tokens, cookie-to-header tokens and SameSite=strict cookies are recognized CSRF mitigations."
+  },
+  {
+    "id": "gen-l11-q28",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "By default, what CSRF protection mechanism does Spring Security use?",
+    "options": [
+      { "label": "A", "text": "Synchronized token pattern with a hidden field in every HTML form" },
+      { "label": "B", "text": "Cookie-to-header pattern with HttpOnly cookie" },
+      { "label": "C", "text": "It does nothing by default" },
+      { "label": "D", "text": "TLS client certificates per request" }
+    ],
+    "correct": ["A"],
+    "explanation": "Spring Security uses the synchronized token pattern by default, adding a hidden _csrf field to forms; cookie-to-header can be added optionally."
+  },
+  {
+    "id": "gen-l11-q29",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which of the following describe the TOTP algorithm (RFC 6238)?",
+    "options": [
+      { "label": "A", "text": "Generates a new 6-digit number every 30 seconds" },
+      { "label": "B", "text": "Server and authenticator app share a symmetric secret" },
+      { "label": "C", "text": "TOTP = truncate(hash(secret, linux time/30), 6 digits)" },
+      { "label": "D", "text": "Uses asymmetric ECDSA key pairs for each code" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "TOTP uses a shared symmetric secret and time to produce a 6-digit code every 30 seconds; it is not asymmetric."
+  },
+  {
+    "id": "gen-l11-q30",
+    "exam": "Generated-PA165-L11-Security",
+    "topic": "Security",
+    "tags": [],
+    "question": "Which are practical WebAuthn/passkeys options listed in the lecture?",
+    "options": [
+      { "label": "A", "text": "Windows Hello (PIN, facial recognition, fingerprint)" },
+      { "label": "B", "text": "Screen lock on Android (PIN, pattern, fingerprint, facial recognition)" },
+      { "label": "C", "text": "Touch ID on macOS" },
+      { "label": "D", "text": "USB hardware tokens that support FIDO2" },
+      { "label": "E", "text": "Sending the password by SMS" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "WebAuthn practical options include Windows Hello, Android screen lock, Touch ID, FIDO2 USB tokens, and a PC/Android Chrome pair over bluetooth. Sending passwords by SMS is not a WebAuthn option."
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "id": "gen-l10-q1",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Observability",
+    "tags": [],
+    "question": "What are the three pillars of telemetry data that each service provides in observability?",
+    "options": [
+      { "label": "A", "text": "Metrics, Traces, Logs" },
+      { "label": "B", "text": "Health, Alerts, Dashboards" },
+      { "label": "C", "text": "CPU, Memory, Network" },
+      { "label": "D", "text": "Errors, Warnings, Events" }
+    ],
+    "correct": ["A"],
+    "explanation": "The lecture defines metrics, traces, and logs as the three pillars of observability telemetry."
+  },
+  {
+    "id": "gen-l10-q2",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Observability",
+    "tags": [],
+    "question": "Which of the following best describes observability?",
+    "options": [
+      { "label": "A", "text": "The ability to deploy applications to Kubernetes" },
+      { "label": "B", "text": "The ability to observe the internal state of a running system from the outside" },
+      { "label": "C", "text": "A technique for unit testing microservices" },
+      { "label": "D", "text": "A pattern for service-to-service authentication" }
+    ],
+    "correct": ["B"],
+    "explanation": "Observability is the ability to observe the internal state of a running system from the outside."
+  },
+  {
+    "id": "gen-l10-q3",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Metrics",
+    "tags": [],
+    "question": "Which statements about metrics are correct? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Metrics are a numeric representation of data measured over periodic intervals of time" },
+      { "label": "B", "text": "Examples include CPU/memory usage, requests per endpoint per second, request durations" },
+      { "label": "C", "text": "Metrics are computed only from the data available to the service at the time of the computation" },
+      { "label": "D", "text": "Metrics include full request bodies and user PII for every request" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Metrics are numeric, periodic measurements computed from data locally available to the service."
+  },
+  {
+    "id": "gen-l10-q4",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Traces",
+    "tags": [],
+    "question": "What is a span in the context of tracing?",
+    "options": [
+      { "label": "A", "text": "A timestamped log line" },
+      { "label": "B", "text": "A separate step in the trace, typically a service invocation or a more granular sub-step" },
+      { "label": "C", "text": "The total duration of all HTTP requests in the system" },
+      { "label": "D", "text": "A Kubernetes pod restart event" }
+    ],
+    "correct": ["B"],
+    "explanation": "Traces consist of spans, where each span is a separate step in the trace such as a service invocation."
+  },
+  {
+    "id": "gen-l10-q5",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Traces",
+    "tags": [],
+    "question": "Why is sampling commonly used for tracing? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Traces add overhead to each request (must be computed, started, stopped, and add data)" },
+      { "label": "B", "text": "Typically we don't trace all requests in the system" },
+      { "label": "C", "text": "We may focus on failures or sample every Nth request" },
+      { "label": "D", "text": "Tracing is illegal in production environments" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Tracing adds overhead, so we sample, e.g., focus on failures or every Nth request."
+  },
+  {
+    "id": "gen-l10-q6",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Logs",
+    "tags": [],
+    "question": "What characterizes logs?",
+    "options": [
+      { "label": "A", "text": "Timestamped records of execution (execution steps, errors/exceptions, unexpected responses)" },
+      { "label": "B", "text": "They can be structured or unstructured" },
+      { "label": "C", "text": "They are limited strictly to numeric values measured at intervals" },
+      { "label": "D", "text": "They always require a separate Kubernetes cluster" }
+    ],
+    "correct": ["A", "B"],
+    "explanation": "Logs are timestamped records of execution and can be either structured (e.g., JSON) or unstructured."
+  },
+  {
+    "id": "gen-l10-q7",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Health",
+    "tags": [],
+    "question": "Which are the three Kubernetes-defined health probe types mentioned in the lecture?",
+    "options": [
+      { "label": "A", "text": "Liveness, Readiness, Startup" },
+      { "label": "B", "text": "Liveness, Heartbeat, Pulse" },
+      { "label": "C", "text": "Ready, Alive, Active" },
+      { "label": "D", "text": "Boot, Run, Shutdown" }
+    ],
+    "correct": ["A"],
+    "explanation": "Kubernetes defines liveness (restart app), readiness (ready to serve requests), and startup (similar to liveness for long-starting apps) probes."
+  },
+  {
+    "id": "gen-l10-q8",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Health",
+    "tags": [],
+    "question": "What is the purpose of a Kubernetes liveness probe?",
+    "options": [
+      { "label": "A", "text": "Determine if the application is ready to serve requests" },
+      { "label": "B", "text": "Determine if the application should be restarted" },
+      { "label": "C", "text": "Determine if the application has finished starting up" },
+      { "label": "D", "text": "Encrypt traffic between services" }
+    ],
+    "correct": ["B"],
+    "explanation": "Liveness probes determine whether the application should be restarted."
+  },
+  {
+    "id": "gen-l10-q9",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Spring Boot Actuator",
+    "tags": [],
+    "question": "Which Maven dependency enables Spring Boot Actuator?",
+    "options": [
+      { "label": "A", "text": "org.springframework.boot:spring-boot-starter-web" },
+      { "label": "B", "text": "org.springframework.boot:spring-boot-starter-actuator" },
+      { "label": "C", "text": "io.micrometer:micrometer-core" },
+      { "label": "D", "text": "org.springframework.boot:spring-boot-starter-aop" }
+    ],
+    "correct": ["B"],
+    "explanation": "The spring-boot-starter-actuator dependency provides the Actuator module."
+  },
+  {
+    "id": "gen-l10-q10",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Spring Boot Actuator",
+    "tags": [],
+    "question": "Which statements about Actuator endpoints are correct? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Built-in endpoints are autoconfigured" },
+      { "label": "B", "text": "Endpoints can be exposed through HTTP or JMX" },
+      { "label": "C", "text": "The HTTP root path is exposed at /actuator" },
+      { "label": "D", "text": "JMX is enabled by default in Spring Boot 3" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Actuator endpoints are autoconfigured, exposable via HTTP (under /actuator) or JMX; JMX requires spring.jmx.enabled=true."
+  },
+  {
+    "id": "gen-l10-q11",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Spring Boot Actuator",
+    "tags": [],
+    "question": "By default, which Actuator HTTP endpoint is exposed?",
+    "options": [
+      { "label": "A", "text": "/beans" },
+      { "label": "B", "text": "/env" },
+      { "label": "C", "text": "/health" },
+      { "label": "D", "text": "All endpoints are exposed by default" }
+    ],
+    "correct": ["C"],
+    "explanation": "By default, only the health endpoint is exposed."
+  },
+  {
+    "id": "gen-l10-q12",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Spring Boot Actuator",
+    "tags": [],
+    "question": "Which property pattern is used to expose actuator endpoints over the web?",
+    "options": [
+      { "label": "A", "text": "management.endpoints.web.exposure.include" },
+      { "label": "B", "text": "spring.actuator.expose" },
+      { "label": "C", "text": "server.endpoints.show=all" },
+      { "label": "D", "text": "actuator.endpoints.public=true" }
+    ],
+    "correct": ["A"],
+    "explanation": "management.endpoints.web.exposure.include (and .exclude) controls which endpoints are exposed over HTTP."
+  },
+  {
+    "id": "gen-l10-q13",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Spring Boot Actuator",
+    "tags": [],
+    "question": "Match the actuator HTTP endpoints to their purpose. Which of the following pairings are correct? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "/beans - list all Spring beans" },
+      { "label": "B", "text": "/env - list environment variables" },
+      { "label": "C", "text": "/shutdown - graceful shutdown (only works with JAR)" },
+      { "label": "D", "text": "/prometheus - application metrics in Prometheus format (requires micrometer-registry-prometheus)" },
+      { "label": "E", "text": "/metrics - sends emails on failures" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "These are the documented purposes of the listed endpoints; /metrics exposes the application's metrics."
+  },
+  {
+    "id": "gen-l10-q14",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Custom Endpoints",
+    "tags": [],
+    "question": "Which annotations are used when building a custom Actuator endpoint? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "@Endpoint" },
+      { "label": "B", "text": "@ReadOperation" },
+      { "label": "C", "text": "@WriteOperation" },
+      { "label": "D", "text": "@DeleteOperation" },
+      { "label": "E", "text": "@RestController" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "Custom endpoints are beans with @Endpoint exposing @ReadOperation, @WriteOperation, @DeleteOperation methods. @WebEndpoint is HTTP-only."
+  },
+  {
+    "id": "gen-l10-q15",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Logging",
+    "tags": [],
+    "question": "Which log levels are supported by the Actuator /loggers endpoint?",
+    "options": [
+      { "label": "A", "text": "TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF, null" },
+      { "label": "B", "text": "VERBOSE, NORMAL, QUIET" },
+      { "label": "C", "text": "LOW, MEDIUM, HIGH, CRITICAL" },
+      { "label": "D", "text": "1, 2, 3, 4, 5" }
+    ],
+    "correct": ["A"],
+    "explanation": "Actuator supports TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF, and null (no explicit config)."
+  },
+  {
+    "id": "gen-l10-q16",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Health Indicators",
+    "tags": [],
+    "question": "How do you create a custom health indicator in Spring Boot?",
+    "options": [
+      { "label": "A", "text": "Implement HealthIndicator and register it as a Spring bean" },
+      { "label": "B", "text": "Extend AbstractActuator class" },
+      { "label": "C", "text": "Annotate any method with @Health" },
+      { "label": "D", "text": "Define a YAML file under META-INF/health" }
+    ],
+    "correct": ["A"],
+    "explanation": "Custom Health indicators are Spring beans implementing HealthIndicator."
+  },
+  {
+    "id": "gen-l10-q17",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Health",
+    "tags": [],
+    "question": "What is the default value of management.endpoint.health.show-details?",
+    "options": [
+      { "label": "A", "text": "always" },
+      { "label": "B", "text": "when-authorized" },
+      { "label": "C", "text": "never" },
+      { "label": "D", "text": "on-error" }
+    ],
+    "correct": ["C"],
+    "explanation": "show-details defaults to 'never'; other options are 'always' and 'when-authorized'."
+  },
+  {
+    "id": "gen-l10-q18",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Kubernetes Probes",
+    "tags": [],
+    "question": "Which statements about Kubernetes probes in Spring Boot Actuator are correct? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "management.endpoint.health.probes.enabled=true adds liveness and readiness groups" },
+      { "label": "B", "text": "Probes are automatically enabled when the application runs in Kubernetes" },
+      { "label": "C", "text": "Startup probes are also available" },
+      { "label": "D", "text": "Probes can only be configured via JMX" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Spring Boot autoconfigures probes in Kubernetes; the property explicitly enables liveness/readiness groups."
+  },
+  {
+    "id": "gen-l10-q19",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Actuator Info",
+    "tags": [],
+    "question": "How do you implement a custom InfoContributor?",
+    "options": [
+      { "label": "A", "text": "Create a Spring bean implementing InfoContributor and override contribute(Info.Builder)" },
+      { "label": "B", "text": "Override the /actuator/info endpoint with a custom @RestController" },
+      { "label": "C", "text": "Annotate fields with @Info on the application class" },
+      { "label": "D", "text": "Edit application.properties only" }
+    ],
+    "correct": ["A"],
+    "explanation": "Custom info is contributed by Spring beans implementing InfoContributor's contribute method."
+  },
+  {
+    "id": "gen-l10-q20",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Micrometer",
+    "tags": [],
+    "question": "Which statements about Micrometer are correct? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "It provides a simple facade over instrumentation clients for popular observability systems" },
+      { "label": "B", "text": "It allows you to instrument JVM-based application code without vendor lock-in" },
+      { "label": "C", "text": "It is described as 'SLF4J, but for observability'" },
+      { "label": "D", "text": "It is a replacement for Spring Boot itself" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Micrometer is a vendor-neutral instrumentation facade for JVM apps, analogous to SLF4J but for observability."
+  },
+  {
+    "id": "gen-l10-q21",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Observation API",
+    "tags": [],
+    "question": "Which Observation lifecycle events map to ObservationHandler methods?",
+    "options": [
+      { "label": "A", "text": "start, stop, error, event, scope started, scope stopped" },
+      { "label": "B", "text": "open, close, commit, rollback" },
+      { "label": "C", "text": "init, run, destroy" },
+      { "label": "D", "text": "request, response, retry, timeout" }
+    ],
+    "correct": ["A"],
+    "explanation": "The Observation lifecycle exposes start, stop, error, event, scope started, and scope stopped events."
+  },
+  {
+    "id": "gen-l10-q22",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Observation API",
+    "tags": [],
+    "question": "What is Observation.Context in Micrometer Observation?",
+    "options": [
+      { "label": "A", "text": "A Spring transaction manager" },
+      { "label": "B", "text": "A Map-like structure used by ObservationHandlers to pass information" },
+      { "label": "C", "text": "An HTTP servlet filter" },
+      { "label": "D", "text": "A Prometheus query language" }
+    ],
+    "correct": ["B"],
+    "explanation": "ObservationHandlers pass information through Observation.Context, which is a Map-like structure."
+  },
+  {
+    "id": "gen-l10-q23",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Tags",
+    "tags": [],
+    "question": "Which statements about Observation tags / cardinality are correct? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Tags are additional metadata as key-value pairs" },
+      { "label": "B", "text": "High cardinality means an unbounded number of possible values" },
+      { "label": "C", "text": "Low cardinality means a bounded number of possibilities" },
+      { "label": "D", "text": "All tags must be numeric" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Tags are key-value metadata; cardinality is high (unbounded) or low (bounded)."
+  },
+  {
+    "id": "gen-l10-q24",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Observation API",
+    "tags": [],
+    "question": "Which additional Observation concepts are mentioned in the lecture? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "ObservationConvention - changing defaults" },
+      { "label": "B", "text": "Predicates - conditional observations" },
+      { "label": "C", "text": "Filters - mutations of Observation.Context" },
+      { "label": "D", "text": "Quartz schedules - cron-based observations" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Conventions, predicates, and filters are the additional Observation concepts presented."
+  },
+  {
+    "id": "gen-l10-q25",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "@Observed",
+    "tags": [],
+    "question": "What is needed to use the @Observed AOP annotation in Spring Boot?",
+    "options": [
+      { "label": "A", "text": "Add spring-boot-starter-aop and declare an ObservedAspect bean wrapping the ObservationRegistry" },
+      { "label": "B", "text": "Only annotate the method with @Observed - nothing else is needed" },
+      { "label": "C", "text": "Configure prometheus.yml with an @Observed scrape target" },
+      { "label": "D", "text": "Add @EnableObservation on a @Configuration class only" }
+    ],
+    "correct": ["A"],
+    "explanation": "@Observed needs spring-boot-starter-aop plus an ObservedAspect bean over the ObservationRegistry."
+  },
+  {
+    "id": "gen-l10-q26",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Metrics",
+    "tags": [],
+    "question": "Which metric backends are mentioned as supported by Spring Boot Actuator via Micrometer? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Prometheus" },
+      { "label": "B", "text": "Datadog" },
+      { "label": "C", "text": "New Relic" },
+      { "label": "D", "text": "OpenTelemetry" },
+      { "label": "E", "text": "MySQL" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "Supported registries include AppOptics, Atlas, Datadog, Dynatrace, Elastic, Ganglia, Graphite, Humio, Influx, JMX, KairosDB, New Relic, OpenTelemetry, Prometheus, SignalFx, Simple, Stackdriver, StatsD, and Wavefront. MySQL is not a metrics backend."
+  },
+  {
+    "id": "gen-l10-q27",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Prometheus",
+    "tags": [],
+    "question": "Which statements about Prometheus integration are correct? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "Prometheus scrapes/polls individual application instances for metrics" },
+      { "label": "B", "text": "/actuator/prometheus is the endpoint Prometheus can query" },
+      { "label": "C", "text": "The endpoint exposes metrics in Prometheus format" },
+      { "label": "D", "text": "Prometheus pushes metrics directly into the application" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Prometheus is a pull-based system that scrapes /actuator/prometheus which exposes metrics in Prometheus format."
+  },
+  {
+    "id": "gen-l10-q28",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Tracing",
+    "tags": [],
+    "question": "What is the default sampling probability for tracing in Spring Boot, and which property sets it?",
+    "options": [
+      { "label": "A", "text": "100% of requests; spring.tracing.sample.percentage" },
+      { "label": "B", "text": "10% of requests by default; management.tracing.sampling.probability" },
+      { "label": "C", "text": "0% by default; you must explicitly enable tracing" },
+      { "label": "D", "text": "50% by default; tracing.sampling.rate" }
+    ],
+    "correct": ["B"],
+    "explanation": "By default only 10% of requests are sampled; management.tracing.sampling.probability=1.0 traces all requests."
+  },
+  {
+    "id": "gen-l10-q29",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Tracing",
+    "tags": [],
+    "question": "Which tracing auto-configurations are supported by Spring Boot 3? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "OpenTelemetry with Zipkin" },
+      { "label": "B", "text": "OpenTelemetry with Wavefront" },
+      { "label": "C", "text": "OpenZipkin Brave with Zipkin or Wavefront" },
+      { "label": "D", "text": "Apache Kafka with Hadoop" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Spring Boot 3 supports OpenTelemetry and OpenZipkin Brave, each with Zipkin or Wavefront backends."
+  },
+  {
+    "id": "gen-l10-q30",
+    "exam": "Generated-PA165-L10-Observability",
+    "topic": "Observability Testing",
+    "tags": [],
+    "question": "Which components are used for observability testing in Spring Boot? (Select all that apply)",
+    "options": [
+      { "label": "A", "text": "micrometer-observation-test dependency (test scope)" },
+      { "label": "B", "text": "TestObservationRegistry bean that replaces the real registry" },
+      { "label": "C", "text": "@AutoConfigureObservability annotation" },
+      { "label": "D", "text": "TestObservationRegistryAssert for fluent assertions like hasBeenStarted/hasBeenStopped" },
+      { "label": "E", "text": "Mandatory mocking of Prometheus servers via WireMock" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "Observability tests use the micrometer-observation-test dependency, a TestObservationRegistry, @AutoConfigureObservability, and TestObservationRegistryAssert."
+  }
+]

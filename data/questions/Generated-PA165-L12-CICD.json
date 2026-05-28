@@ -1,0 +1,462 @@
+[
+  {
+    "id": "gen-l12-q1",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "CI/CD",
+    "tags": [],
+    "question": "Which of the following are reasons given in the lecture for needing CI/CD?",
+    "options": [
+      { "label": "A", "text": "Releasing more frequently turns out to produce more stable software" },
+      { "label": "B", "text": "Solves the \"it works on my machine\" problem" },
+      { "label": "C", "text": "Automation of testing and deployment of the software" },
+      { "label": "D", "text": "Eliminates the need for any version control system" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "The lecture lists frequent releases, solving the works-on-my-machine problem, and automation of testing/deployment as motivations for CI/CD."
+  },
+  {
+    "id": "gen-l12-q2",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "DevOps",
+    "tags": [],
+    "question": "According to the GitLab definition cited in the lecture, DevOps combines which two areas?",
+    "options": [
+      { "label": "A", "text": "Development and Operations" },
+      { "label": "B", "text": "Design and Outsourcing" },
+      { "label": "C", "text": "Documentation and Optimization" },
+      { "label": "D", "text": "Deployment and Observability" }
+    ],
+    "correct": ["A"],
+    "explanation": "DevOps stands for Development Operations and combines Dev and Ops teams."
+  },
+  {
+    "id": "gen-l12-q3",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "DevOps",
+    "tags": [],
+    "question": "Which activities are part of the DevOps lifecycle as presented in the lecture?",
+    "options": [
+      { "label": "A", "text": "Plan" },
+      { "label": "B", "text": "Create" },
+      { "label": "C", "text": "Verify" },
+      { "label": "D", "text": "Package" },
+      { "label": "E", "text": "Marketing" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "The DevOps infinity diagram includes Plan, Create, Verify, Package, Deploy, Monitor — plus Secure and Govern. Marketing is not part of it."
+  },
+  {
+    "id": "gen-l12-q4",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "DevOps vs CI/CD",
+    "tags": [],
+    "question": "How does the lecture distinguish CI/CD from DevOps?",
+    "options": [
+      { "label": "A", "text": "CI/CD is a set of development practices for rapid and reliable delivery of code changes" },
+      { "label": "B", "text": "DevOps is a collection of ideas, practices, processes and technologies that allow dev and ops teams to streamline product development" },
+      { "label": "C", "text": "CI/CD and DevOps are exactly the same thing" },
+      { "label": "D", "text": "DevOps replaces CI/CD entirely" }
+    ],
+    "correct": ["A", "B"],
+    "explanation": "The slides quote both definitions and treat CI/CD as practices for code delivery while DevOps is a broader collection of ideas, practices, processes, and technologies."
+  },
+  {
+    "id": "gen-l12-q5",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Continuous Integration",
+    "tags": [],
+    "question": "Which statements about Continuous Integration (CI) match the lecture?",
+    "options": [
+      { "label": "A", "text": "CI provides rapid feedback on the consistency and quality of code to all members of a team" },
+      { "label": "B", "text": "Code should be integrated in the main branch as fast as possible" },
+      { "label": "C", "text": "Unit tests play a key role" },
+      { "label": "D", "text": "CI is primarily about manually deploying to production" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "The lecture defines CI as rapid feedback, integration into main as fast as possible, with unit tests playing the key role."
+  },
+  {
+    "id": "gen-l12-q6",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Unit Tests",
+    "tags": [],
+    "question": "In the lecture, what does \"State Testing\" of a unit refer to?",
+    "options": [
+      { "label": "A", "text": "Asserting the properties of an object" },
+      { "label": "B", "text": "Asserting the interactions between objects" },
+      { "label": "C", "text": "Asserting the deployment environment configuration" },
+      { "label": "D", "text": "Asserting network latency" }
+    ],
+    "correct": ["A"],
+    "explanation": "State Testing asserts properties of an object (e.g., assertEquals(1, personRepository.getCount()))."
+  },
+  {
+    "id": "gen-l12-q7",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Unit Tests",
+    "tags": [],
+    "question": "What is \"Interaction Testing\" according to the lecture?",
+    "options": [
+      { "label": "A", "text": "Asserting the properties of a single object" },
+      { "label": "B", "text": "Asserting the interactions between objects" },
+      { "label": "C", "text": "Testing only the database state" },
+      { "label": "D", "text": "Manually clicking through the UI" }
+    ],
+    "correct": ["B"],
+    "explanation": "Interaction Testing asserts interactions between objects (e.g., via mocking with when(...).thenReturn(...))."
+  },
+  {
+    "id": "gen-l12-q8",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Continuous Delivery",
+    "tags": [],
+    "question": "Which statements about Continuous Delivery (CD) match the lecture?",
+    "options": [
+      { "label": "A", "text": "It is the automation of the process of software delivery" },
+      { "label": "B", "text": "Deployment pipelines automate the testing of deployed artefacts" },
+      { "label": "C", "text": "Integration tests play a key role" },
+      { "label": "D", "text": "It covers every action up to the deployment of the system to production" },
+      { "label": "E", "text": "It deliberately skips automation in favor of manual testing" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "The lecture defines Continuous Delivery as automating delivery via pipelines, with integration tests playing a key role, covering every action up to production deployment."
+  },
+  {
+    "id": "gen-l12-q9",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Continuous Deployment",
+    "tags": [],
+    "question": "Which best describes Continuous Deployment as defined in the lecture?",
+    "options": [
+      { "label": "A", "text": "Automation of the process that deploys the application after tests and CI/CD have passed" },
+      { "label": "B", "text": "A manual approval step that is always required before production" },
+      { "label": "C", "text": "A way to skip integration tests entirely" },
+      { "label": "D", "text": "A synonym for source control management" }
+    ],
+    "correct": ["A"],
+    "explanation": "Continuous Deployment automates the deployment after tests and CI/CD have passed."
+  },
+  {
+    "id": "gen-l12-q10",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Continuous Delivery vs Deployment",
+    "tags": [],
+    "question": "According to the CD vs CD diagram in the lecture, what is the key difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      { "label": "A", "text": "In Continuous Delivery, deployment to production is a manual step; in Continuous Deployment, it is automated" },
+      { "label": "B", "text": "Continuous Delivery has no tests, Continuous Deployment has tests" },
+      { "label": "C", "text": "Continuous Deployment is performed before unit tests" },
+      { "label": "D", "text": "Continuous Delivery skips staging environments" }
+    ],
+    "correct": ["A"],
+    "explanation": "The diagram shows the Deploy to Production step is Manual in Continuous Delivery and Auto in Continuous Deployment."
+  },
+  {
+    "id": "gen-l12-q11",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "CI/CD Workflow",
+    "tags": [],
+    "question": "Which stages appear in the typical CI/CD GitLab pipeline workflow shown in the lecture?",
+    "options": [
+      { "label": "A", "text": "Commit" },
+      { "label": "B", "text": "Build" },
+      { "label": "C", "text": "Unit Tests" },
+      { "label": "D", "text": "Code Quality" },
+      { "label": "E", "text": "Customer Marketing" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "The typical workflow includes Commit, Build, Unit Tests, Code Quality, Integration Tests, Merge Request, Review, Merge, Staging, Production. Marketing is not part of it."
+  },
+  {
+    "id": "gen-l12-q12",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Pull Requests",
+    "tags": [],
+    "question": "According to the lecture's Pull Request workflow, what is the correct sequence of steps?",
+    "options": [
+      { "label": "A", "text": "Create feature branch -> push to public repo -> create PR -> team review -> maintainer merges" },
+      { "label": "B", "text": "Merge to main -> create PR -> code -> push" },
+      { "label": "C", "text": "Create PR -> create branch -> push -> review -> code" },
+      { "label": "D", "text": "Deploy -> review -> commit -> branch -> merge" }
+    ],
+    "correct": ["A"],
+    "explanation": "The workflow is: developer creates task/feature branch, pushes the branch, creates a pull request, team reviews, then the maintainer merges."
+  },
+  {
+    "id": "gen-l12-q13",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Branching Strategies",
+    "tags": [],
+    "question": "Which branching strategies are discussed in the lecture?",
+    "options": [
+      { "label": "A", "text": "Centralized Workflow" },
+      { "label": "B", "text": "Feature Branch Workflow" },
+      { "label": "C", "text": "Forking Workflow" },
+      { "label": "D", "text": "Gitflow Workflow" },
+      { "label": "E", "text": "Recursive Backtracking Workflow" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "The lecture covers Centralized, Feature Branch, Forking, and Gitflow workflows. Recursive Backtracking is fabricated."
+  },
+  {
+    "id": "gen-l12-q14",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Branching Strategies",
+    "tags": [],
+    "question": "Which statements about the Centralized Workflow match the lecture?",
+    "options": [
+      { "label": "A", "text": "Uses only the main branch" },
+      { "label": "B", "text": "Easier transition to Git" },
+      { "label": "C", "text": "Users don't need to change their workflow" },
+      { "label": "D", "text": "Requires every developer to fork the repository" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "The Centralized Workflow uses main branch only, eases the Git transition, and does not force users to change their workflow."
+  },
+  {
+    "id": "gen-l12-q15",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Branching Strategies",
+    "tags": [],
+    "question": "Which statements correctly describe the Forking Workflow?",
+    "options": [
+      { "label": "A", "text": "It is common in open source projects" },
+      { "label": "B", "text": "Each user has a personal public repository" },
+      { "label": "C", "text": "The project maintainer integrates changes into the official repository via pull requests" },
+      { "label": "D", "text": "It forbids the use of pull requests" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Forking workflow is common in open source, each contributor maintains their own fork, and the maintainer integrates via PRs."
+  },
+  {
+    "id": "gen-l12-q16",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Gitflow",
+    "tags": [],
+    "question": "According to the lecture, which statements about Gitflow are correct?",
+    "options": [
+      { "label": "A", "text": "It is a strict branching model designed around project releases" },
+      { "label": "B", "text": "The master branch stores the official release history" },
+      { "label": "C", "text": "The develop branch serves as an integration branch for features" },
+      { "label": "D", "text": "It has no concept of release or hotfix branches" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Gitflow defines strict branches (main, develop, feature, release, hotfix) with master holding releases and develop integrating features."
+  },
+  {
+    "id": "gen-l12-q17",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "CI/CD Pipelines",
+    "tags": [],
+    "question": "Match the GitLab pipeline term to its definition as given in the lecture.",
+    "options": [
+      { "label": "A", "text": "Runner — an agent or server that executes each job individually" },
+      { "label": "B", "text": "Stages — a keyword defining certain stages of a job; jobs in the same stage run in parallel" },
+      { "label": "C", "text": "Job — an instruction that a runner has to execute" },
+      { "label": "D", "text": "Runner — a configuration file that triggers webhooks" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "The lecture defines Runner as the execution agent, Stages as the grouping keyword with parallel jobs within a stage, and Job as the runner's instruction."
+  },
+  {
+    "id": "gen-l12-q18",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "GitLab Pipelines",
+    "tags": [],
+    "question": "Which statements about a GitLab Pipeline configuration are correct?",
+    "options": [
+      { "label": "A", "text": "It is defined in a file named .gitlab-ci.yml" },
+      { "label": "B", "text": "It follows the YAML format" },
+      { "label": "C", "text": "Scripts are grouped into jobs that form a pipeline" },
+      { "label": "D", "text": "It must be written in JSON only" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Pipelines are defined in .gitlab-ci.yml using YAML; scripts are grouped into jobs forming the pipeline."
+  },
+  {
+    "id": "gen-l12-q19",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "GitLab Stages",
+    "tags": [],
+    "question": "What is true about GitLab stages?",
+    "options": [
+      { "label": "A", "text": "Stages allow grouping of jobs into parallel execution lines" },
+      { "label": "B", "text": "The ordering in stages determines the execution order" },
+      { "label": "C", "text": "Jobs in the same stage run in parallel" },
+      { "label": "D", "text": "Jobs in the same stage are always executed sequentially one after another" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Stages group jobs that run in parallel within a stage; the order of stages defines the execution order."
+  },
+  {
+    "id": "gen-l12-q20",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "GitLab Jobs",
+    "tags": [],
+    "question": "Which statements about GitLab jobs are correct according to the slides?",
+    "options": [
+      { "label": "A", "text": "Jobs define the type of tasks to run" },
+      { "label": "B", "text": "The job name can be defined freely (e.g., build, build-myproject, build:jdk17) avoiding reserved keywords" },
+      { "label": "C", "text": "The script section must be present" },
+      { "label": "D", "text": "A job called \"stages\" is preferred since it matches the reserved keyword" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "Jobs need a script section and a name that does not collide with reserved keywords like \"stages\"."
+  },
+  {
+    "id": "gen-l12-q21",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "GitLab Pipelines",
+    "tags": [],
+    "question": "In a GitLab DAG (Direct Acyclic Graph) pipeline, what role does the `needs` keyword play?",
+    "options": [
+      { "label": "A", "text": "It declares dependencies between jobs so a job can start as soon as its named dependencies finish, bypassing strict stage order" },
+      { "label": "B", "text": "It defines the Docker image used by a job" },
+      { "label": "C", "text": "It marks the job as manual" },
+      { "label": "D", "text": "It pushes artifacts to the registry" }
+    ],
+    "correct": ["A"],
+    "explanation": "In the DAG example, `needs: [build_a]` etc. declares cross-stage dependencies between specific jobs."
+  },
+  {
+    "id": "gen-l12-q22",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "GitLab Runners",
+    "tags": [],
+    "question": "Which statements about GitLab Runners are correct?",
+    "options": [
+      { "label": "A", "text": "A Runner is a separate project that can run on a different machine than GitLab CI" },
+      { "label": "B", "text": "A Runner picks up jobs from a running pipeline and communicates back to GitLab CI" },
+      { "label": "C", "text": "Each Runner has a type of executor (shell, docker, ssh, etc.)" },
+      { "label": "D", "text": "Shared runners are registered for a group, dedicated runners are registered for a specific project" },
+      { "label": "E", "text": "Runners must always run on the same machine as the GitLab CI server" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "Runners are separate, can run anywhere, have executors, and come in Shared (group) and Dedicated (project) types."
+  },
+  {
+    "id": "gen-l12-q23",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "GitLab Common Properties",
+    "tags": [],
+    "question": "Match the GitLab common job property with its purpose.",
+    "options": [
+      { "label": "A", "text": "when — sets the condition for running the job (e.g., when: manual)" },
+      { "label": "B", "text": "cache — keeps some files between different jobs (e.g., .m2 dependencies)" },
+      { "label": "C", "text": "artifact — makes specific artifacts available to GitLab (e.g., built JAR file)" },
+      { "label": "D", "text": "tag — runs jobs only on runners tagged with a specific tag" },
+      { "label": "E", "text": "when — deletes the repository after the job completes" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "All of when/cache/artifact/tag descriptions match the slides; option E is incorrect."
+  },
+  {
+    "id": "gen-l12-q24",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "CI/CD Environments",
+    "tags": [],
+    "question": "Which environments are listed in the lecture as examples?",
+    "options": [
+      { "label": "A", "text": "Review environment — new environment for each merge request" },
+      { "label": "B", "text": "Staging environment — nearly exact replica of production with the goal of testing" },
+      { "label": "C", "text": "Production environment" },
+      { "label": "D", "text": "Demolition environment — discards all code at end of sprint" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "The slides mention review, staging, and production environments."
+  },
+  {
+    "id": "gen-l12-q25",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Docker-in-Docker",
+    "tags": [],
+    "question": "Which statements about using Docker-in-Docker (DinD) in GitLab pipelines are correct?",
+    "options": [
+      { "label": "A", "text": "GitLab pipelines run in their own Docker instance" },
+      { "label": "B", "text": "If a Docker image is needed, one can run a docker:dind service to run containers within a container" },
+      { "label": "C", "text": "DinD makes it impossible to build Docker images inside a pipeline" },
+      { "label": "D", "text": "Pipelines can never use Docker images" }
+    ],
+    "correct": ["A", "B"],
+    "explanation": "The slide explains that pipelines run in their own Docker instance and DinD enables running Docker containers inside the pipeline container."
+  },
+  {
+    "id": "gen-l12-q26",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "CI Best Practices",
+    "tags": [],
+    "question": "Which of the following are CI best practices mentioned in the lecture?",
+    "options": [
+      { "label": "A", "text": "Commit early, commit often" },
+      { "label": "B", "text": "Optimize pipeline stages to detect failures as early as possible" },
+      { "label": "C", "text": "Make builds fast and simple" },
+      { "label": "D", "text": "Run tests locally before adding them to the CI/CD pipeline" },
+      { "label": "E", "text": "Build in a clean environment; test environment should mirror production" },
+      { "label": "F", "text": "Delay all commits until the end of the sprint" }
+    ],
+    "correct": ["A", "B", "C", "D", "E"],
+    "explanation": "All listed items except F are explicit CI best practices in the slides."
+  },
+  {
+    "id": "gen-l12-q27",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Pipeline Security",
+    "tags": [],
+    "question": "According to the OWASP Top 10 CI/CD Security Risks introduced in the lecture, which item corresponds to CICD-SEC-1?",
+    "options": [
+      { "label": "A", "text": "Insufficient Flow Control Mechanisms" },
+      { "label": "B", "text": "Inadequate Identity and Access Management" },
+      { "label": "C", "text": "Dependency Chain Abuse" },
+      { "label": "D", "text": "Poisoned Pipeline Execution" }
+    ],
+    "correct": ["A"],
+    "explanation": "CICD-SEC-1 is Insufficient Flow Control Mechanisms; the others are SEC-2, SEC-3, SEC-4 respectively."
+  },
+  {
+    "id": "gen-l12-q28",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Pipeline Security",
+    "tags": [],
+    "question": "Which of the following are forms of Dependency Chain Abuse (CICD-SEC-3) according to the lecture?",
+    "options": [
+      { "label": "A", "text": "Dependency confusion" },
+      { "label": "B", "text": "Dependency hijacking" },
+      { "label": "C", "text": "Typosquatting" },
+      { "label": "D", "text": "Brandjacking" },
+      { "label": "E", "text": "Insufficient logging" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "The slide lists dependency confusion, hijacking, typosquatting, and brandjacking under CICD-SEC-3. Insufficient logging is SEC-10."
+  },
+  {
+    "id": "gen-l12-q29",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Pipeline Security",
+    "tags": [],
+    "question": "Which statements about Poisoned Pipeline Execution (PPE, CICD-SEC-4) are correct?",
+    "options": [
+      { "label": "A", "text": "PPE refers to an attacker manipulating the build process by injecting malicious code/commands into the pipeline configuration" },
+      { "label": "B", "text": "Direct PPE: an attacker updates the pipeline configuration file, accessing authentication variables that can be redirected and reused" },
+      { "label": "C", "text": "Indirect PPE: an attacker changes artifacts utilized by the pipeline (e.g., injecting malicious code into scripts used by the pipeline)" },
+      { "label": "D", "text": "PPE is only about logging configuration" }
+    ],
+    "correct": ["A", "B", "C"],
+    "explanation": "The lecture defines PPE generally and distinguishes direct (config file) and indirect (artifacts/scripts) variants."
+  },
+  {
+    "id": "gen-l12-q30",
+    "exam": "Generated-PA165-L12-CICD",
+    "topic": "Pipeline Security",
+    "tags": [],
+    "question": "Match each CICD-SEC risk identifier with its name as given in the lecture.",
+    "options": [
+      { "label": "A", "text": "CICD-SEC-5: Insufficient PBAC (Pipeline-Based Access Controls)" },
+      { "label": "B", "text": "CICD-SEC-6: Insufficient Credential Hygiene" },
+      { "label": "C", "text": "CICD-SEC-9: Improper Artifact Integrity Validation" },
+      { "label": "D", "text": "CICD-SEC-10: Insufficient Logging and Visibility" },
+      { "label": "E", "text": "CICD-SEC-5: Mandatory Two-Factor Authentication" }
+    ],
+    "correct": ["A", "B", "C", "D"],
+    "explanation": "The slides label SEC-5 as Insufficient PBAC, SEC-6 as Insufficient Credential Hygiene, SEC-9 as Improper Artifact Integrity Validation, and SEC-10 as Insufficient Logging and Visibility."
+  }
+]
