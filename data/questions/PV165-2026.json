@@ -1,0 +1,961 @@
+[
+  {
+    "id": "pv165-2026-q1",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What is the default Fetch type for a field annotated with @ManyToOne",
+    "options": [
+      {
+        "label": "A",
+        "text": "LAZY"
+      },
+      {
+        "label": "B",
+        "text": "EAGER"
+      },
+      {
+        "label": "C",
+        "text": "There is no default, a developer must set this"
+      },
+      {
+        "label": "D",
+        "text": "Depends on the Database Engine"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": "pv165-2026-q2",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What does \"refactoring\" mean?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Changing the code after requirements change"
+      },
+      {
+        "label": "B",
+        "text": "Changing the code structure without changing functionality"
+      },
+      {
+        "label": "C",
+        "text": "Changing the code to improve performance"
+      },
+      {
+        "label": "D",
+        "text": "Introducing the Factory design pattern into your code"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": "pv165-2026-q3",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What does a commit object contain?",
+    "options": [
+      {
+        "label": "A",
+        "text": "a set of files, representing the state of a project at a given point of time"
+      },
+      {
+        "label": "B",
+        "text": "an SHAI name, a 40 character string that uniquely identifies the commit object"
+      },
+      {
+        "label": "C",
+        "text": "a file named .git, where git keeps all of its metadata"
+      },
+      {
+        "label": "D",
+        "text": "None of the mentioned options"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "pv165-2026-q4",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Spring-WS allows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "contract-first"
+      },
+      {
+        "label": "B",
+        "text": "contract-last"
+      },
+      {
+        "label": "C",
+        "text": "none of them"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": "pv165-2026-q5",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "JMS schema strategies:",
+    "options": [
+      {
+        "label": "A",
+        "text": "validate"
+      },
+      {
+        "label": "B",
+        "text": "update"
+      },
+      {
+        "label": "C",
+        "text": "create"
+      },
+      {
+        "label": "D",
+        "text": "create-drop"
+      },
+      {
+        "label": "E",
+        "text": "reset"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q6",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What are the properties of a well-designed component?",
+    "options": [
+      {
+        "label": "A",
+        "text": "well testable"
+      },
+      {
+        "label": "B",
+        "text": "approved by customer"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": "pv165-2026-q7",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What does git push do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "updates remote refs"
+      },
+      {
+        "label": "B",
+        "text": "is an invalid command"
+      },
+      {
+        "label": "C",
+        "text": "fetches something @Inject"
+      },
+      {
+        "label": "D",
+        "text": "Imagine you write tests for a class that injects Service(Impl). What happens?"
+      },
+      {
+        "label": "E",
+        "text": "NullPointerException is thrown ."
+      },
+      {
+        "label": "F",
+        "text": "Private attributes cannot be injected."
+      },
+      {
+        "label": "G",
+        "text": "if everything is setup correctly, a new product is created every run."
+      }
+    ],
+    "correct": [
+      "A",
+      "E"
+    ]
+  },
+  {
+    "id": "pv165-2026-q8",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What is true about the JPA configuration file?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It has to be named persistence.xml"
+      },
+      {
+        "label": "B",
+        "text": "It includes precisely one <persistence-unit>"
+      },
+      {
+        "label": "C",
+        "text": "It includes one or more <persistence-units>"
+      }
+    ],
+    "correct": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": "pv165-2026-q9",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What is true about the N+1 problem?",
+    "options": [
+      {
+        "label": "A",
+        "text": "it refers to a piece of code that can produce N+1 SQL queries"
+      },
+      {
+        "label": "B",
+        "text": "it can be solved by using LAZY FETCH"
+      },
+      {
+        "label": "C",
+        "text": "it can be solved by using EAGER FETCH"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": "pv165-2026-q10",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Which of these mechanisms causes the application not to store passwords at all?",
+    "options": [
+      {
+        "label": "A",
+        "text": "basic auth"
+      },
+      {
+        "label": "B",
+        "text": "login form"
+      },
+      {
+        "label": "C",
+        "text": "X.509 certificates"
+      },
+      {
+        "label": "D",
+        "text": "federated identity"
+      },
+      {
+        "label": "E",
+        "text": "OAuth"
+      }
+    ],
+    "correct": [
+      "D",
+      "E"
+    ]
+  },
+  {
+    "id": "pv165-2026-q11",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Which of these are considered secure for storing passwords?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SHA-512"
+      },
+      {
+        "label": "B",
+        "text": "bcrypt, scrypt"
+      },
+      {
+        "label": "C",
+        "text": "PBKDF2"
+      },
+      {
+        "label": "D",
+        "text": "argon2 </property> </bean>"
+      }
+    ],
+    "correct": [
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q12",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "the id has to be unique ."
+      },
+      {
+        "label": "B",
+        "text": "this tries to create an instance of type com.example.Class"
+      },
+      {
+        "label": "C",
+        "text": "it creates a property named \"prop\""
+      },
+      {
+        "label": "D",
+        "text": "it inserts the value \"example\" into (existing?) property named \"prop\""
+      },
+      {
+        "label": "E",
+        "text": "(something about the scope)"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q13",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "How do you get validation info in a controller?",
+    "options": [
+      {
+        "label": "A",
+        "text": "it is passed in the @Valid annotation"
+      },
+      {
+        "label": "B",
+        "text": "it is passed in a parameter annotated with the @Valid annotation"
+      },
+      {
+        "label": "C",
+        "text": "it is passed in a parameter annotated with the @ModelAttribute annotation"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": "pv165-2026-q14",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Your colleague wants to use the OPTIONS HTTP method in your REST API. What do you say to him? (...)",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is no OPTIONS method."
+      },
+      {
+        "label": "B",
+        "text": "I would pass info about the methods available on the resource (e.g. Allow: OPTIONS, GET, POST)"
+      },
+      {
+        "label": "C",
+        "text": "I would pass info about the availability of the resource (e.g. at which time it is available)"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": "pv165-2026-q15",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "How are beans configured?",
+    "options": [
+      {
+        "label": "A",
+        "text": "they are annotated by @Component or similar"
+      },
+      {
+        "label": "B",
+        "text": "they are listed as <bean>s in a XML file"
+      },
+      {
+        "label": "C",
+        "text": "they are listed as methods with @Bean annotation in the configuration file"
+      },
+      {
+        "label": "D",
+        "text": "(piece of code - final class CurrencyConvertorImpl which accepts an implementation of an interface ExchangeRateTable via its constructor and has 1 public method convert) The design of this component: - follows Single Responsibility - is loosely coupled - has good encapsulation - the class is immutable - the class is thread-safe"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "pv165-2026-q16",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Spring gives you a possibility to inject dependencies into the managed instances. What are the ways you may tell Spring about the beans that should be injectable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Using an XML configuration file that will list beans using <bean> elements."
+      },
+      {
+        "label": "B",
+        "text": "Providing a list of already created available bean instances in the spring constructor."
+      },
+      {
+        "label": "C",
+        "text": "Using the Java configuration class that has multiple methods annotated with @Bean ."
+      },
+      {
+        "label": "D",
+        "text": "Annotating the classes eligible to be injected with annotations such as @Component ."
+      }
+    ],
+    "correct": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q17",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "<bean id=”myService” class=”com.acme.services.MyServiceImpl” />",
+    "options": [
+      {
+        "label": "A",
+        "text": "It registers a class of type com.acme.services.MyServiceImpl. You may then inject instances of this class."
+      },
+      {
+        "label": "B",
+        "text": "This file is generated by Spring and does not change its behaviour."
+      },
+      {
+        "label": "C",
+        "text": "It tells spring to create one instance of the class of type com.acme.services.MyServiceImpl ."
+      },
+      {
+        "label": "D",
+        "text": "It tells spring which classes provide bean definitions inside."
+      }
+    ],
+    "correct": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "id": "pv165-2026-q18",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Consider an application whose architecture includes the following layers. Which layer will be responsible for service orchestration?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adapter."
+      },
+      {
+        "label": "B",
+        "text": "DAO."
+      },
+      {
+        "label": "C",
+        "text": "View."
+      },
+      {
+        "label": "D",
+        "text": "Service."
+      },
+      {
+        "label": "E",
+        "text": "Controller."
+      },
+      {
+        "label": "F",
+        "text": "Service Facade ."
+      }
+    ],
+    "correct": [
+      "F"
+    ]
+  },
+  {
+    "id": "pv165-2026-q19",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Which of the following statements are true for DAO objects (objects that constitute Persistence Layer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "May be implemented using JDBC ."
+      },
+      {
+        "label": "B",
+        "text": "May be implemented using some ORM mapping tool for example Hibernate ."
+      },
+      {
+        "label": "C",
+        "text": "Methods should take Data Transfer Objects as parameters."
+      },
+      {
+        "label": "D",
+        "text": "Transactions should be demarcated inside DAO methods."
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "pv165-2026-q20",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What is the advantage of loosely coupled components.",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are more flexible ."
+      },
+      {
+        "label": "B",
+        "text": "They are easy to test with unit tests ."
+      },
+      {
+        "label": "C",
+        "text": "They are easy to maintain ."
+      },
+      {
+        "label": "D",
+        "text": "Reduction of transitive dependencies ."
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q21",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Které z následujících tvrzení je pravdivé",
+    "options": [
+      {
+        "label": "A",
+        "text": "EntityManager is threadsafe"
+      },
+      {
+        "label": "B",
+        "text": "EntityManager is NOT threadsafe"
+      },
+      {
+        "label": "C",
+        "text": "EntityManagerFactory is threadsafe"
+      },
+      {
+        "label": "D",
+        "text": "EntityManagerFactory is NOT threadsafe"
+      }
+    ],
+    "correct": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "pv165-2026-q22",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Co z následujících nejsou části Kubernetes",
+    "options": [
+      {
+        "label": "A",
+        "text": "Plane"
+      },
+      {
+        "label": "B",
+        "text": "Pod"
+      },
+      {
+        "label": "C",
+        "text": "Service"
+      },
+      {
+        "label": "D",
+        "text": "Route"
+      },
+      {
+        "label": "E",
+        "text": "Envoy"
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q23",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Co dela `mvn clean:clean`",
+    "options": [
+      {
+        "label": "A",
+        "text": "calls plugin clean and phase clean"
+      },
+      {
+        "label": "B",
+        "text": "deletes dependencies 3."
+      },
+      {
+        "label": "C",
+        "text": "Co je to `convention over configuration`"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": "pv165-2026-q24",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Co jsou required kroky na pushnuti docker image na nejakou stranku (quay.io) nejak tak vypadala ta stranka.",
+    "options": [
+      {
+        "label": "A",
+        "text": "podman tag"
+      },
+      {
+        "label": "B",
+        "text": "podman push"
+      },
+      {
+        "label": "C",
+        "text": "podman ls"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": "pv165-2026-q25",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Co jsou artifacts v gitlab",
+    "options": [
+      {
+        "label": "A",
+        "text": "gitlab specific files"
+      },
+      {
+        "label": "B",
+        "text": "documentation files"
+      },
+      {
+        "label": "C",
+        "text": "stage generated files and .. 4."
+      }
+    ],
+    "correct": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": "pv165-2026-q26",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Co jsou spravne prikazy na bulid podman(docker)",
+    "options": [
+      {
+        "label": "A",
+        "text": "podman run /some/path"
+      },
+      {
+        "label": "B",
+        "text": "podman build -t /some/path"
+      },
+      {
+        "label": "C",
+        "text": "podman build -t /some/path ."
+      },
+      {
+        "label": "D",
+        "text": "docker build -t image_name /path/to/dockerfile || docker build -t image_name ."
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q27",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Jake role definule OAuth2",
+    "options": [
+      {
+        "label": "A",
+        "text": "Resource server"
+      },
+      {
+        "label": "B",
+        "text": "Resource owner"
+      },
+      {
+        "label": "C",
+        "text": "Client"
+      },
+      {
+        "label": "D",
+        "text": "Authorization Server"
+      },
+      {
+        "label": "E",
+        "text": "User Agent"
+      },
+      {
+        "label": "F",
+        "text": "Some more.."
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q28",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Co je provedeno při `mvn install`",
+    "options": [
+      {
+        "label": "A",
+        "text": "validace"
+      },
+      {
+        "label": "B",
+        "text": "kompilace"
+      },
+      {
+        "label": "C",
+        "text": "testy"
+      },
+      {
+        "label": "D",
+        "text": "Balíček"
+      },
+      {
+        "label": "E",
+        "text": "Instalace do lokálního repozitáře"
+      },
+      {
+        "label": "F",
+        "text": "neco dalsiho"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "id": "pv165-2026-q29",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Jake definuje Spring Bean Scopes",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sigleton"
+      },
+      {
+        "label": "B",
+        "text": "Prototype"
+      },
+      {
+        "label": "C",
+        "text": "Request"
+      },
+      {
+        "label": "D",
+        "text": "Session"
+      },
+      {
+        "label": "E",
+        "text": "Application"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "id": "pv165-2026-q30",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What is true for a POJO (Plain Old Java Object)? (1pt)",
+    "options": [
+      {
+        "label": "A",
+        "text": "A POJO must extend pre-specified classes"
+      },
+      {
+        "label": "B",
+        "text": "A POJO must implement pre-specified interfaces"
+      },
+      {
+        "label": "C",
+        "text": "A JavaBean is a typical example of a POJO"
+      },
+      {
+        "label": "D",
+        "text": "A JPA Entity is a POJO"
+      }
+    ],
+    "correct": [
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "pv165-2026-q31",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "What is a “Span” in Spring Boot’s tracing of microservices?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A nested observation"
+      },
+      {
+        "label": "B",
+        "text": "A custom metric"
+      },
+      {
+        "label": "C",
+        "text": "A segment of code execution within a microservice"
+      },
+      {
+        "label": "D",
+        "text": "A health category"
+      },
+      {
+        "label": "E",
+        "text": "A collection of distributed logs from multiple microservices"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": "pv165-2026-q32",
+    "exam": "PV165-2026",
+    "topic": "PV165",
+    "tags": [],
+    "question": "Which endpoints does an OIDC Provider provide?",
+    "options": [
+      {
+        "label": "A",
+        "text": "authorization endpoint"
+      },
+      {
+        "label": "B",
+        "text": "token endpoint"
+      },
+      {
+        "label": "C",
+        "text": "userInfo endpoint"
+      },
+      {
+        "label": "D",
+        "text": "JWKS (JSON Web Key Set) endpoint"
+      },
+      {
+        "label": "E",
+        "text": "encryption endpoint"
+      }
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  }
+]
