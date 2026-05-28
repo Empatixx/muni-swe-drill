@@ -17,7 +17,6 @@ type Answer = {
   correct: boolean
 }
 
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
 const SESSION_KEY = "swe-muni-drill:session"
 const RETRY_KEY = "swe-muni-drill:retry-ids"
 
@@ -100,7 +99,7 @@ export function DrillSession() {
           })),
         }),
       )
-      router.push(`${BASE}/drill/results/`)
+      router.push(`/drill/results/`)
       return
     }
     setIndex((i) => i + 1)
@@ -112,7 +111,7 @@ export function DrillSession() {
     return (
       <div className="space-y-4">
         <p className="text-sm text-[var(--color-destructive)]">{error}</p>
-        <Button variant="outline" onClick={() => router.push(`${BASE}/`)}>
+        <Button variant="outline" onClick={() => router.push(`/`)}>
           Back to filters
         </Button>
       </div>

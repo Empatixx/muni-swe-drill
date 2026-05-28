@@ -12,8 +12,6 @@ import { fetchAllQuestions } from "@/lib/questions/client-loader"
 import { filterQuestions } from "@/lib/questions/filter"
 import type { Question } from "@/lib/questions/schema"
 
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
-
 function LandingInner() {
   const sp = useSearchParams()
   const examParam = sp.get("exam")
@@ -42,8 +40,8 @@ function LandingInner() {
   const examLabel = examParam ?? "All exams"
   const seed = Math.floor(Math.random() * 2 ** 30)
   const drillHref = examParam
-    ? `${BASE}/drill/?exam=${encodeURIComponent(examParam)}&seed=${seed}`
-    : `${BASE}/drill/?seed=${seed}`
+    ? `/drill/?exam=${encodeURIComponent(examParam)}&seed=${seed}`
+    : `/drill/?seed=${seed}`
 
   return (
     <div className="space-y-6">
