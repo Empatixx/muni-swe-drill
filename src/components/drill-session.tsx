@@ -7,7 +7,8 @@ import { ArrowRight, CheckCircle2, Loader2, RotateCcw } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { QuestionCard } from "@/components/question-card"
-import { isAnswerCorrect } from "@/lib/questions/filter"
+import { fetchAllQuestions } from "@/lib/questions/client-loader"
+import { filterQuestions, isAnswerCorrect, shuffle } from "@/lib/questions/filter"
 import type { OptionLabel, Question } from "@/lib/questions/schema"
 
 type Answer = {
@@ -16,6 +17,7 @@ type Answer = {
   correct: boolean
 }
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
 const SESSION_KEY = "swe-muni-drill:session"
 const RETRY_KEY = "swe-muni-drill:retry-ids"
 
@@ -33,25 +35,26 @@ export function DrillSession() {
   React.useEffect(() => {
     let cancelled = false
     const load = async () => {
-      const retryRaw =
-        typeof window !== "undefined" ? window.sessionStorage.getItem(RETRY_KEY) : null
-      const retryIds = retryRaw ? (JSON.parse(retryRaw) as string[]) : null
-
-      const search = new URLSearchParams(params.toString())
-      if (retryIds && retryIds.length > 0) {
-        search.set("ids", retryIds.join(","))
-        window.sessionStorage.removeItem(RETRY_KEY)
-      }
       try {
-        const res = await fetch(`/api/questions?${search.toString()}`)
-        if (!res.ok) throw new Error(`HTTP ${res.status}`)
-        const data = (await res.json()) as { questions: Question[] }
-        if (!cancelled) {
-          if (data.questions.length === 0) {
-            setError("No questions match this filter.")
-          } else {
-            setQuestions(data.questions)
-          }
+        const retryRaw =
+          typeof window !== "undefined" ? window.sessionStorage.getItem(RETRY_KEY) : null
+        const retryIds = retryRaw ? (JSON.parse(retryRaw) as string[]) : null
+        if (retryIds && retryIds.length > 0) {
+          window.sessionStorage.removeItem(RETRY_KEY)
+        }
+
+        const exam = params.get("exam")
+        const seedParam = params.get("seed")
+        const seed = seedParam ? Number(seedParam) : undefined
+
+        const all = await fetchAllQuestions()
+        const filtered = filterQuestions(all, { exam, ids: retryIds })
+        const ordered = shuffle(filtered, seed)
+        if (cancelled) return
+        if (ordered.length === 0) {
+          setError("No questions match this filter.")
+        } else {
+          setQuestions(ordered)
         }
       } catch (e) {
         if (!cancelled) setError(e instanceof Error ? e.message : "Failed to load questions")
@@ -97,7 +100,7 @@ export function DrillSession() {
           })),
         }),
       )
-      router.push("/drill/results")
+      router.push(`${BASE}/drill/results/`)
       return
     }
     setIndex((i) => i + 1)
@@ -109,7 +112,7 @@ export function DrillSession() {
     return (
       <div className="space-y-4">
         <p className="text-sm text-[var(--color-destructive)]">{error}</p>
-        <Button variant="outline" onClick={() => router.push("/")}>
+        <Button variant="outline" onClick={() => router.push(`${BASE}/`)}>
           Back to filters
         </Button>
       </div>

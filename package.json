@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bun --bun next dev --turbopack",
-    "build": "bun --bun next build",
+    "dev": "bun run build:questions && bun --bun next dev --turbopack",
+    "build": "bun run build:questions && bun --bun next build",
+    "build:questions": "bun scripts/build-questions.ts",
     "start": "bun --bun next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",

@@ -1,30 +1,49 @@
+"use client"
+
+import * as React from "react"
 import Link from "next/link"
-import { Play } from "lucide-react"
+import { useSearchParams } from "next/navigation"
+import { Loader2, Play } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { fetchAllQuestions } from "@/lib/questions/client-loader"
 import { filterQuestions } from "@/lib/questions/filter"
-import { loadAllQuestions } from "@/lib/questions/loader"
+import type { Question } from "@/lib/questions/schema"
 
-type SearchParams = { [key: string]: string | string[] | undefined }
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
 
-export default async function LandingPage({
-  searchParams,
-}: {
-  searchParams: Promise<SearchParams>
-}) {
-  const sp = await searchParams
-  const examParam = typeof sp.exam === "string" ? sp.exam : null
+function LandingInner() {
+  const sp = useSearchParams()
+  const examParam = sp.get("exam")
+  const [questions, setQuestions] = React.useState<Question[] | null>(null)
+  const [error, setError] = React.useState<string | null>(null)
 
-  const all = await loadAllQuestions()
-  const matching = filterQuestions(all, { exam: examParam })
+  React.useEffect(() => {
+    fetchAllQuestions()
+      .then(setQuestions)
+      .catch((e) => setError(e instanceof Error ? e.message : "Failed to load questions"))
+  }, [])
+
+  if (error) {
+    return <p className="text-sm text-[var(--color-destructive)]">{error}</p>
+  }
+  if (!questions) {
+    return (
+      <div className="flex items-center gap-2 text-[var(--color-muted-foreground)]">
+        <Loader2 className="h-4 w-4 animate-spin" />
+        <span>Loading questions…</span>
+      </div>
+    )
+  }
+
+  const matching = filterQuestions(questions, { exam: examParam })
   const examLabel = examParam ?? "All exams"
-
   const seed = Math.floor(Math.random() * 2 ** 30)
   const drillHref = examParam
-    ? `/drill?exam=${encodeURIComponent(examParam)}&seed=${seed}`
-    : `/drill?seed=${seed}`
+    ? `${BASE}/drill/?exam=${encodeURIComponent(examParam)}&seed=${seed}`
+    : `${BASE}/drill/?seed=${seed}`
 
   return (
     <div className="space-y-6">
@@ -57,5 +76,13 @@ export default async function LandingPage({
         </CardContent>
       </Card>
     </div>
+  )
+}
+
+export default function LandingPage() {
+  return (
+    <React.Suspense fallback={<div>Loading…</div>}>
+      <LandingInner />
+    </React.Suspense>
   )
 }

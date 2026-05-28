@@ -1,17 +1,17 @@
+const isGhPages = process.env.GITHUB_PAGES === "true"
+const basePath = isGhPages ? "/muni-swe-drill" : ""
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   reactStrictMode: true,
-  headers: async () => [
-    {
-      source: "/(.*)",
-      headers: [
-        { key: "X-Frame-Options", value: "DENY" },
-        { key: "X-Content-Type-Options", value: "nosniff" },
-        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
-      ],
-    },
-  ],
+  basePath,
+  assetPrefix: basePath || undefined,
+  trailingSlash: true,
+  images: { unoptimized: true },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
 }
 
 export default nextConfig

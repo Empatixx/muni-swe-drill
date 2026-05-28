@@ -3,6 +3,7 @@ node_modules/
 .turbo/
 out/
 dist/
+public/questions.json
 coverage/
 *.tsbuildinfo
 *.log

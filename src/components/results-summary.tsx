@@ -23,6 +23,7 @@ type Stored = {
   questions: StoredQuestion[]
 }
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
 const SESSION_KEY = "swe-muni-drill:session"
 const RETRY_KEY = "swe-muni-drill:retry-ids"
 
@@ -44,7 +45,7 @@ export function ResultsSummary() {
     return (
       <div className="space-y-4">
         <p>No session data found. Start a new drill from the landing page.</p>
-        <Button onClick={() => router.push("/")}>
+        <Button onClick={() => router.push(`${BASE}/`)}>
           <Home className="h-4 w-4" />
           Back to landing
         </Button>
@@ -65,13 +66,13 @@ export function ResultsSummary() {
     const ids = wrong.map((a) => a.id)
     window.sessionStorage.setItem(RETRY_KEY, JSON.stringify(ids))
     window.sessionStorage.removeItem(SESSION_KEY)
-    router.push(`/drill?seed=${Math.floor(Math.random() * 2 ** 30)}`)
+    router.push(`${BASE}/drill/?seed=${Math.floor(Math.random() * 2 ** 30)}`)
   }
 
   const startOver = () => {
     window.sessionStorage.removeItem(SESSION_KEY)
     window.sessionStorage.removeItem(RETRY_KEY)
-    router.push("/")
+    router.push(`${BASE}/`)
   }
 
   return (
