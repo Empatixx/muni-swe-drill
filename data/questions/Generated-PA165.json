@@ -4,7 +4,7 @@
     "exam": "Generated-PA165",
     "topic": "Course Overview",
     "tags": [],
-    "question": "Which of the following are stated aims of the PA165 course?",
+    "question": "Which of the following are stated aims of the PA165?",
     "options": [
       {
         "label": "A",
@@ -28,7 +28,7 @@
       "B",
       "D"
     ],
-    "explanation": "The slides explicitly list Java system design, Spring APIs, and team work as goals; JVM bytecode manipulation is not mentioned."
+    "explanation": "The explicitly list Java system design, Spring APIs, and team work as goals; JVM bytecode manipulation is not mentioned."
   },
   {
     "id": "gen-l01-q2",
@@ -57,7 +57,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "The slide states: 55 project + 10 seminar tasks + 35 final exam = 100 points."
+    "explanation": "States: 55 project + 10 seminar tasks + 35 final exam = 100 points."
   },
   {
     "id": "gen-l01-q3",
@@ -124,7 +124,7 @@
     "exam": "Generated-PA165",
     "topic": "Modern Systems",
     "tags": [],
-    "question": "Which challenges of modern information system design are listed in the lecture?",
+    "question": "Which challenges of modern information system design are listed?",
     "options": [
       {
         "label": "A",
@@ -186,7 +186,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "How does the lecture describe the Spring Framework?",
+    "question": "How would you describe the Spring Framework?",
     "options": [
       {
         "label": "A",
@@ -392,14 +392,14 @@
       "B",
       "D"
     ],
-    "explanation": "Microservices are small, independently deployable services communicating via APIs; the slide shows separate data stores."
+    "explanation": "Microservices are small, independently deployable services communicating via APIs; it shows separate data stores."
   },
   {
     "id": "gen-l01-q14",
     "exam": "Generated-PA165",
     "topic": "Patterns Hierarchy",
     "tags": [],
-    "question": "In the lecture's Levels of Patterns & Principles, which example is matched with the correct level?",
+    "question": "'s Levels of Patterns & Principles, which example is matched with the correct level?",
     "options": [
       {
         "label": "A",
@@ -514,18 +514,18 @@
       "B",
       "D"
     ],
-    "explanation": "The slide lists Service Locator, (Abstract) Factory, Template Method, Strategy, and DI as IoC patterns; Singleton is not listed."
+    "explanation": "Lists Service Locator, (Abstract) Factory, Template Method, Strategy, and DI as IoC patterns; Singleton is not listed."
   },
   {
     "id": "gen-l01-q18",
     "exam": "Generated-PA165",
     "topic": "DI Benefits",
     "tags": [],
-    "question": "According to the lecture, what is a key benefit of Dependency Injection?",
+    "question": "what is a key benefit of Dependency Injection?",
     "options": [
       {
         "label": "A",
-        "text": "It moves the responsibility of creating an object out of the client class"
+        "text": "It moves the responsibility of creating an object out of the client"
       },
       {
         "label": "B",
@@ -582,7 +582,7 @@
     "exam": "Generated-PA165",
     "topic": "DAO vs Repository",
     "tags": [],
-    "question": "How does the lecture distinguish the DAO pattern from the Repository pattern?",
+    "question": "How does the DAO pattern differ from the Repository pattern?",
     "options": [
       {
         "label": "A",
@@ -854,7 +854,7 @@
     "exam": "Generated-PA165",
     "topic": "Maven Best Practices",
     "tags": [],
-    "question": "Which of the following are listed as Maven best practices in the lecture?",
+    "question": "Which of the following are listed as Maven best practices?",
     "options": [
       {
         "label": "A",
@@ -885,23 +885,23 @@
     "exam": "Generated-PA165",
     "topic": "SOLID Principles",
     "tags": [],
-    "question": "Which of the following correctly describe SOLID principles as summarized in the lecture?",
+    "question": "Which of the following correctly describe SOLID principles?",
     "options": [
       {
         "label": "A",
-        "text": "Single Responsibility: a class should have one and only one reason to change"
+        "text": "Single Responsibility: a should have one and only one reason to change"
       },
       {
         "label": "B",
-        "text": "Open-closed: a class or module should be open for extension but closed for modification"
+        "text": "Open-closed: a or module should be open for extension but closed for modification"
       },
       {
         "label": "C",
-        "text": "Liskov Substitution: a derived class should replace its base class without affecting program correctness"
+        "text": "Liskov Substitution: a derived should replace its base without affecting program correctness"
       },
       {
         "label": "D",
-        "text": "Interface Segregation: a class should be forced to implement large unified interfaces"
+        "text": "Interface Segregation: a should be forced to implement large unified interfaces"
       }
     ],
     "correct": [
@@ -945,7 +945,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which of the following are challenges of 'life without Spring framework' mentioned in the lecture? (Select all that apply)",
+    "question": "Which of the following are challenges of 'life without Spring framework' mentioned? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -969,7 +969,7 @@
       "C",
       "D"
     ],
-    "explanation": "The lecture lists manual dependency management, configuration complexity, boilerplate code, and testing challenges among issues without Spring."
+    "explanation": "Lists manual dependency management, configuration complexity, boilerplate code, and testing challenges among issues without Spring."
   },
   {
     "id": "gen-l02-q3",
@@ -1034,7 +1034,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which of the following are examples of application servers (not just web servers)? (Select all that apply)",
+    "question": "Which of the following are examples of application servers (not just web servers)? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1065,7 +1065,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which is the most common server choice for Spring applications, typically used as an embedded server when packaging as a .jar?",
+    "question": "Which is the most common server choice for Spring applications, typically used as an embedded server when packaging as a.jar?",
     "options": [
       {
         "label": "A",
@@ -1087,14 +1087,14 @@
     "correct": [
       "C"
     ],
-    "explanation": "Tomcat is the most common choice for Spring apps, often the default embedded server when packaging as a .jar."
+    "explanation": "Tomcat is the most common choice for Spring apps, often the default embedded server when packaging as a.jar."
   },
   {
     "id": "gen-l02-q7",
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "What are advantages (Pros) of using an embedded server vs an external server? (Select all that apply)",
+    "question": "What are advantages (Pros) of using an embedded server vs an external server? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1182,7 +1182,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which of the following are types of Dependency Injection in Spring? (Select all that apply)",
+    "question": "Which of the following are types of Dependency Injection in Spring? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1242,7 +1242,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which are benefits of Constructor Injection? (Select all that apply)",
+    "question": "Which are benefits of Constructor Injection? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1302,7 +1302,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which are weaknesses of XML-based metadata configuration in Spring? (Select all that apply)",
+    "question": "Which are weaknesses of XML-based metadata configuration in Spring? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1333,7 +1333,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which annotations are proprietary Spring stereotype annotations? (Select all that apply)",
+    "question": "Which annotations are proprietary Spring stereotype annotations? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1393,7 +1393,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which annotations are used in code-driven (Java Config) Spring configuration? (Select all that apply)",
+    "question": "Which annotations are used in code-driven (Java Config) Spring configuration? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1424,7 +1424,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "How many times is each @Bean method evaluated in a @Configuration class?",
+    "question": "How many times is each @Bean method evaluated in a @Configuration?",
     "options": [
       {
         "label": "A",
@@ -1482,7 +1482,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which of the following are valid Spring bean scopes? (Select all that apply)",
+    "question": "Which of the following are valid Spring bean scopes? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1571,7 +1571,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which proxy mechanisms does Spring use to enable annotation-driven behavior? (Select all that apply)",
+    "question": "Which proxy mechanisms does Spring use to enable annotation-driven behavior? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1623,7 +1623,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "JDK Dynamic proxies can only proxy interfaces, while CGLIB creates proxies by subclassing the target class - no interface needed."
+    "explanation": "JDK Dynamic proxies can only proxy interfaces, while CGLIB creates proxies by subclassing the target - no interface needed."
   },
   {
     "id": "gen-l02-q25",
@@ -1659,7 +1659,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which of the following make up the Core Container module group of the Spring Framework? (Select all that apply)",
+    "question": "Which of the following make up the Core Container module group of the Spring Framework? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1749,7 +1749,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Framework",
     "tags": [],
-    "question": "Which Spring transaction propagation modes describe correct behavior? (Select all that apply)",
+    "question": "Which Spring transaction propagation modes describe correct behavior? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -1866,7 +1866,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide lists faster development, embedded servers, production-ready features, simplified dependency management, minimal configuration, microservices support, faster testing, and active community."
+    "explanation": "lists faster development, embedded servers, production-ready features, simplified dependency management, minimal configuration, microservices support, faster testing, and active community."
   },
   {
     "id": "gen-l03-q3",
@@ -1899,7 +1899,7 @@
       "B",
       "C"
     ],
-    "explanation": "The lecture lists lack of transparency, customization limitations, and learning curve as the three cons."
+    "explanation": "Lists lack of transparency, customization limitations, and learning curve as the three cons."
   },
   {
     "id": "gen-l03-q4",
@@ -1912,15 +1912,15 @@
     "options": [
       {
         "label": "A",
-        "text": "A .war file"
+        "text": "A.war file"
       },
       {
         "label": "B",
-        "text": "A .jar file with embedded server"
+        "text": "A.jar file with embedded server"
       },
       {
         "label": "C",
-        "text": "A .ear file"
+        "text": "A.ear file"
       },
       {
         "label": "D",
@@ -1930,7 +1930,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "Spring Boot uses a .jar file as the default executable and an embedded Tomcat server."
+    "explanation": "Spring Boot uses a.jar file as the default executable and an embedded Tomcat server."
   },
   {
     "id": "gen-l03-q5",
@@ -1970,7 +1970,7 @@
     "tags": [
       "war-deployment"
     ],
-    "question": "What steps are required to package a Spring Boot application as a .war for deployment to an external Jakarta/Java EE server?",
+    "question": "What steps are required to package a Spring Boot application as a.war for deployment to an external Jakarta/Java EE server?",
     "options": [
       {
         "label": "A",
@@ -1986,7 +1986,7 @@
       },
       {
         "label": "D",
-        "text": "Create a class extending SpringBootServletInitializer"
+        "text": "Create a extending SpringBootServletInitializer"
       }
     ],
     "correct": [
@@ -1994,7 +1994,7 @@
       "C",
       "D"
     ],
-    "explanation": "The slides specify changing packaging to war, adding spring-boot-starter-tomcat with scope provided, and extending SpringBootServletInitializer. The slide also says to remove the maven plugin in some setups, but the canonical steps in the lecture are these three."
+    "explanation": "Specify changing packaging to war, adding spring-boot-starter-tomcat with scope provided, and extending SpringBootServletInitializer. The also says to remove the maven plugin in some setups, but the canonical steps are these three."
   },
   {
     "id": "gen-l03-q7",
@@ -2003,7 +2003,7 @@
     "tags": [
       "annotations"
     ],
-    "question": "Which annotation is placed on the main class of a Spring Boot application?",
+    "question": "Which annotation is placed on the main of a Spring Boot application?",
     "options": [
       {
         "label": "A",
@@ -2025,7 +2025,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "The main App class is annotated with @SpringBootApplication."
+    "explanation": "The main App is annotated with @SpringBootApplication."
   },
   {
     "id": "gen-l03-q8",
@@ -2091,7 +2091,7 @@
       "C",
       "D"
     ],
-    "explanation": "All listed property sources are shown in the lecture diagram for the Spring Environment."
+    "explanation": "All listed property sources are shown diagram for the Spring Environment."
   },
   {
     "id": "gen-l03-q10",
@@ -2202,7 +2202,7 @@
     "options": [
       {
         "label": "A",
-        "text": "To bind a group of properties to a class so it can be injected, avoiding repeated @Value usage"
+        "text": "To bind a group of properties to a so it can be injected, avoiding repeated @Value usage"
       },
       {
         "label": "B",
@@ -2220,7 +2220,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "@ConfigurationProperties loads specific configuration properties into a class for reuse, avoiding scattered @Value annotations."
+    "explanation": "@ConfigurationProperties loads specific configuration properties into a for reuse, avoiding scattered @Value annotations."
   },
   {
     "id": "gen-l03-q14",
@@ -2260,7 +2260,7 @@
     "tags": [
       "aop"
     ],
-    "question": "Which of the following are common use cases of Aspect-Oriented Programming (AOP) as listed in the lecture?",
+    "question": "Which of the following are common use cases of Aspect-Oriented Programming (AOP)?",
     "options": [
       {
         "label": "A",
@@ -2289,7 +2289,7 @@
       "D",
       "E"
     ],
-    "explanation": "Lecture lists transaction management, logging/auditing, exception handling/translation, validation, and authorization. Garbage collection is not an AOP concern."
+    "explanation": "lists transaction management, logging/auditing, exception handling/translation, validation, and authorization. Garbage collection is not an AOP concern."
   },
   {
     "id": "gen-l03-q16",
@@ -2315,13 +2315,13 @@
       },
       {
         "label": "D",
-        "text": "A class containing business logic"
+        "text": "A containing business logic"
       }
     ],
     "correct": [
       "C"
     ],
-    "explanation": "Pointcut is a predicate matching where advice applies; advice is the action; joinpoint is the execution point; business object is the class containing business logic."
+    "explanation": "Pointcut is a predicate matching where advice applies; advice is the action; joinpoint is the execution point; business object is the containing business logic."
   },
   {
     "id": "gen-l03-q17",
@@ -2439,7 +2439,7 @@
       "aop",
       "annotations"
     ],
-    "question": "Which annotations are used together on an aspect class so that Spring discovers and applies it?",
+    "question": "Which annotations are used together on an aspect so that Spring discovers and applies it?",
     "options": [
       {
         "label": "A",
@@ -2462,7 +2462,7 @@
       "A",
       "B"
     ],
-    "explanation": "The lecture shows aspect classes annotated with @Aspect and @Component so they are scanned by the Spring container."
+    "explanation": "Shows aspect classes annotated with @Aspect and @Component so they are scanned by the Spring container."
   },
   {
     "id": "gen-l03-q21",
@@ -2471,7 +2471,7 @@
     "tags": [
       "scheduling"
     ],
-    "question": "Which annotation must be placed on a @Configuration class to enable scheduling in Spring?",
+    "question": "Which annotation must be placed on a @Configuration to enable scheduling in Spring?",
     "options": [
       {
         "label": "A",
@@ -2503,7 +2503,7 @@
       "scheduling",
       "rules"
     ],
-    "question": "According to the lecture, methods annotated with @Scheduled must satisfy which rules?",
+    "question": "methods annotated with @Scheduled must satisfy which rules?",
     "options": [
       {
         "label": "A",
@@ -2574,7 +2574,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Add @EnableAsync to a configuration class and annotate the @Scheduled method with @Async"
+        "text": "Add @EnableAsync to a configuration and annotate the @Scheduled method with @Async"
       },
       {
         "label": "B",
@@ -2624,7 +2624,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "The slide states the pattern order is second, minute, hour, day, month, weekday."
+    "explanation": "States the pattern order is second, minute, hour, day, month, weekday."
   },
   {
     "id": "gen-l03-q26",
@@ -2787,7 +2787,7 @@
       "B",
       "C"
     ],
-    "explanation": "A, B, and C are correct per the slides. D is wrong: virtual threads are NOT bound to a specific OS thread."
+    "explanation": "A, B, and C are correct. D is wrong: virtual threads are NOT bound to a specific OS thread."
   },
   {
     "id": "gen-l04-q1",
@@ -2818,14 +2818,14 @@
       "B",
       "C"
     ],
-    "explanation": "Per slide 4, all three are stated; CI does not eliminate the need for testing in CD."
+    "explanation": "4, all three are stated; CI does not eliminate the need for testing in CD."
   },
   {
     "id": "gen-l04-q2",
     "exam": "Generated-PA165",
     "topic": "Spring Boot Testing",
     "tags": [],
-    "question": "What is the primary purpose of SonarQube according to the supporting tools slide?",
+    "question": "What is the primary purpose of SonarQube according to the supporting tools?",
     "options": [
       {
         "label": "A",
@@ -2847,7 +2847,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "Slide 6 lists SonarQube's role in identifying redundancy, reducing complexity, and generating coverage reports."
+    "explanation": "Lists SonarQube's role in identifying redundancy, reducing complexity, and generating coverage reports."
   },
   {
     "id": "gen-l04-q3",
@@ -2883,7 +2883,7 @@
       "C",
       "E"
     ],
-    "explanation": "Slide 8 lists all of these except the desktop-only claim."
+    "explanation": "Lists all of these except the desktop-only claim."
   },
   {
     "id": "gen-l04-q4",
@@ -2912,7 +2912,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "Slide 10 defines stress testing as evaluating capacity beyond expected maximum."
+    "explanation": "Defines stress testing as evaluating capacity beyond expected maximum."
   },
   {
     "id": "gen-l04-q5",
@@ -2941,14 +2941,14 @@
     "correct": [
       "C"
     ],
-    "explanation": "Slide 10 defines end-to-end testing this way."
+    "explanation": "Defines end-to-end testing this way."
   },
   {
     "id": "gen-l04-q6",
     "exam": "Generated-PA165",
     "topic": "Spring Boot Testing",
     "tags": [],
-    "question": "Which categories of test cases should be covered according to the lecture?",
+    "question": "Which categories of test cases should be covered?",
     "options": [
       {
         "label": "A",
@@ -2977,7 +2977,7 @@
       "C",
       "E"
     ],
-    "explanation": "Slide 12 lists positive, negative, equivalence classes, boundary values and combinations as the test case coverage categories."
+    "explanation": "Lists positive, negative, equivalence classes, boundary values and combinations as the test case coverage categories."
   },
   {
     "id": "gen-l04-q7",
@@ -3006,7 +3006,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "Slide 13 shows isAdult_AgeLessThan18_False as the example for MethodName_StateUnderTest_ExpectedBehavior."
+    "explanation": "Shows isAdult_AgeLessThan18_False as the example for MethodName_StateUnderTest_ExpectedBehavior."
   },
   {
     "id": "gen-l04-q8",
@@ -3017,7 +3017,7 @@
     "options": [
       {
         "label": "A",
-        "text": "@Mock creates a mock; @InjectMocks creates an instance of the class and injects the mocks created with @Mock."
+        "text": "@Mock creates a mock; @InjectMocks creates an instance of the and injects the mocks created with @Mock."
       },
       {
         "label": "B",
@@ -3035,7 +3035,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 14 explicitly defines this distinction."
+    "explanation": "Explicitly defines this distinction."
   },
   {
     "id": "gen-l04-q9",
@@ -3066,7 +3066,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 15 lists @SpringBootTest, @AutoConfigureMockMvc, and @DataJpaTest as typical Spring Boot integration test support."
+    "explanation": "Lists @SpringBootTest, @AutoConfigureMockMvc, and @DataJpaTest as typical Spring Boot integration test support."
   },
   {
     "id": "gen-l04-q10",
@@ -3095,7 +3095,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 17 specifies the Maven build lifecycle as in option A."
+    "explanation": "Specifies the Maven build lifecycle as in option A."
   },
   {
     "id": "gen-l04-q11",
@@ -3131,14 +3131,14 @@
       "C",
       "D"
     ],
-    "explanation": "Slide 17 lists exactly these four phases for the Failsafe plugin."
+    "explanation": "Lists exactly these four phases for the Failsafe plugin."
   },
   {
     "id": "gen-l04-q12",
     "exam": "Generated-PA165",
     "topic": "Spring Boot Testing",
     "tags": [],
-    "question": "By default, what suffix must a Maven Failsafe integration test class name end with?",
+    "question": "By default, what suffix must a Maven Failsafe integration test name end with?",
     "options": [
       {
         "label": "A",
@@ -3160,7 +3160,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "Slide 17 states test class must end with 'IT' (but can be overridden)."
+    "explanation": "States test must end with 'IT' (but can be overridden)."
   },
   {
     "id": "gen-l04-q13",
@@ -3196,7 +3196,7 @@
       "C",
       "D"
     ],
-    "explanation": "Slide 19 lists the first four reasons; mocking does not eliminate assertions."
+    "explanation": "Lists the first four reasons; mocking does not eliminate assertions."
   },
   {
     "id": "gen-l04-q14",
@@ -3229,7 +3229,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 20 defines dummy objects this way."
+    "explanation": "Defines dummy objects this way."
   },
   {
     "id": "gen-l04-q15",
@@ -3258,7 +3258,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 20: fakes have working implementations not suitable for production (e.g., in-memory DB)."
+    "explanation": "20: fakes have working implementations not suitable for production (e.g., in-memory DB)."
   },
   {
     "id": "gen-l04-q16",
@@ -3287,14 +3287,14 @@
     "correct": [
       "B"
     ],
-    "explanation": "Slide 23: @MockBean is used when interacting with the Spring Boot container and adding/mocking a bean."
+    "explanation": "23: @MockBean is used when interacting with the Spring Boot container and adding/mocking a bean."
   },
   {
     "id": "gen-l04-q17",
     "exam": "Generated-PA165",
     "topic": "Spring Boot Testing",
     "tags": [],
-    "question": "Which statements about Mockito's verify() are correct?",
+    "question": "Which statements about Mockito's verify are correct?",
     "options": [
       {
         "label": "A",
@@ -3310,7 +3310,7 @@
       },
       {
         "label": "D",
-        "text": "verify() can only be used with @SpringBootTest."
+        "text": "verify can only be used with @SpringBootTest."
       }
     ],
     "correct": [
@@ -3318,7 +3318,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 22 shows all of these; verify() does not require @SpringBootTest."
+    "explanation": "Shows all of these; verify does not require @SpringBootTest."
   },
   {
     "id": "gen-l04-q18",
@@ -3347,7 +3347,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 25 states @SpyBean is used to replace a real bean with a spy, typically for integration tests."
+    "explanation": "States @SpyBean is used to replace a real bean with a spy, typically for integration tests."
   },
   {
     "id": "gen-l04-q19",
@@ -3378,7 +3378,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 27 lists JUnit 5, Spring Test, AssertJ, Hamcrest, Mockito, JSONassert, JsonPath, and Awaitility."
+    "explanation": "Lists JUnit 5, Spring Test, AssertJ, Hamcrest, Mockito, JSONassert, JsonPath, and Awaitility."
   },
   {
     "id": "gen-l04-q20",
@@ -3407,7 +3407,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 28 explains @DirtiesContext manages the context cache but reduces performance optimization."
+    "explanation": "Explains @DirtiesContext manages the context cache but reduces performance optimization."
   },
   {
     "id": "gen-l04-q21",
@@ -3436,7 +3436,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 31 shows @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)."
+    "explanation": "Shows @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)."
   },
   {
     "id": "gen-l04-q22",
@@ -3471,7 +3471,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 35: @WebMvcTest includes Controller-related beans but NOT @Service, @Component, @Repository."
+    "explanation": "35: @WebMvcTest includes Controller-related beans but NOT @Service, @Component, @Repository."
   },
   {
     "id": "gen-l04-q23",
@@ -3506,7 +3506,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 35 lists @Repository, EntityManager, TestEntityManager, and DataSource as included in @DataJpaTest."
+    "explanation": "Lists @Repository, EntityManager, TestEntityManager, and DataSource as included in @DataJpaTest."
   },
   {
     "id": "gen-l04-q24",
@@ -3535,7 +3535,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 38: by default data JPA tests are transactional and roll back at the end of each test."
+    "explanation": "38: by default data JPA tests are transactional and roll back at the end of each test."
   },
   {
     "id": "gen-l04-q25",
@@ -3564,7 +3564,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "Slide 36: @RestClientTest is for testing HTTP client with a local server (includes RestTemplateBuilder, MockRestServiceServer)."
+    "explanation": "36: @RestClientTest is for testing HTTP client with a local server (includes RestTemplateBuilder, MockRestServiceServer)."
   },
   {
     "id": "gen-l04-q26",
@@ -3595,7 +3595,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 40 lists these activation methods; web.xml is only one of several."
+    "explanation": "Lists these activation methods; web.xml is only one of several."
   },
   {
     "id": "gen-l04-q27",
@@ -3626,30 +3626,30 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 43 lists exactly these three types."
+    "explanation": "Lists exactly these three types."
   },
   {
     "id": "gen-l04-q28",
     "exam": "Generated-PA165",
     "topic": "Spring Boot Testing",
     "tags": [],
-    "question": "Which TestTransaction operations are mentioned in the lecture?",
+    "question": "Which TestTransaction operations are mentioned?",
     "options": [
       {
         "label": "A",
-        "text": "TestTransaction.isActive()"
+        "text": "TestTransaction.isActive"
       },
       {
         "label": "B",
-        "text": "TestTransaction.isFlaggedForRollback()"
+        "text": "TestTransaction.isFlaggedForRollback"
       },
       {
         "label": "C",
-        "text": "TestTransaction.flagForCommit() / flagForRollback()"
+        "text": "TestTransaction.flagForCommit / flagForRollback"
       },
       {
         "label": "D",
-        "text": "TestTransaction.restartGlobal()"
+        "text": "TestTransaction.restartGlobal"
       }
     ],
     "correct": [
@@ -3657,7 +3657,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 45 lists isActive(), isFlaggedForRollback(), flagForCommit(), flagForRollback() but no restartGlobal()."
+    "explanation": "Lists isActive, isFlaggedForRollback, flagForCommit, flagForRollback but no restartGlobal."
   },
   {
     "id": "gen-l04-q29",
@@ -3668,7 +3668,7 @@
     "options": [
       {
         "label": "A",
-        "text": "@Testcontainers on the test class"
+        "text": "@Testcontainers on the test"
       },
       {
         "label": "B",
@@ -3680,7 +3680,7 @@
       },
       {
         "label": "D",
-        "text": "@AutoConfigureContainerRegistry on the class"
+        "text": "@AutoConfigureContainerRegistry"
       }
     ],
     "correct": [
@@ -3688,7 +3688,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 46 shows @Testcontainers, @Container, and @ServiceConnection; @AutoConfigureContainerRegistry was not mentioned."
+    "explanation": "Shows @Testcontainers, @Container, and @ServiceConnection; @AutoConfigureContainerRegistry was not mentioned."
   },
   {
     "id": "gen-l04-q30",
@@ -3719,7 +3719,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 53 lists exactly these deprecations; Mockito remains part of the starter."
+    "explanation": "Lists exactly these deprecations; Mockito remains part of the starter."
   },
   {
     "id": "gen-l05-q1",
@@ -3779,14 +3779,14 @@
     "correct": [
       "B"
     ],
-    "explanation": "The lecture defines monolith scaling as replicating the entire single-process application across multiple servers."
+    "explanation": "Defines monolith scaling as replicating the entire single-process application across multiple servers."
   },
   {
     "id": "gen-l05-q3",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "Which of the following are listed in the lecture as problems with monolithic applications?",
+    "question": "Which of the following are listed as problems with monolithic applications?",
     "options": [
       {
         "label": "A",
@@ -3814,7 +3814,7 @@
       "B",
       "C"
     ],
-    "explanation": "The slides list rebuild/redeploy, replicated resource usage and slow startup. Horizontal scaling is actually listed as an advantage of monoliths."
+    "explanation": "List rebuild/redeploy, replicated resource usage and slow startup. Horizontal scaling is actually listed as an advantage of monoliths."
   },
   {
     "id": "gen-l05-q4",
@@ -3843,14 +3843,14 @@
     "correct": [
       "A"
     ],
-    "explanation": "The lecture's classification: monolith = single unit, SOA = coarse-grained, microservices = fine-grained."
+    "explanation": "The's classification: monolith = single unit, SOA = coarse-grained, microservices = fine-grained."
   },
   {
     "id": "gen-l05-q5",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "Per the lecture's architectural pattern slide, each microservice should:",
+    "question": "'s architectural pattern, each microservice should:",
     "options": [
       {
         "label": "A",
@@ -3879,7 +3879,7 @@
       "C",
       "D"
     ],
-    "explanation": "The architectural pattern slide lists owns its data, isolated, scalable, resilient, and self-maintained. Shared global DB contradicts the isolation principle."
+    "explanation": "The architectural pattern lists owns its data, isolated, scalable, resilient, and self-maintained. Shared global DB contradicts the isolation principle."
   },
   {
     "id": "gen-l05-q6",
@@ -3908,7 +3908,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "The slide explicitly states interaction with other microservices is allowed only through predefined APIs."
+    "explanation": "The explicitly states interaction with other microservices is allowed only through predefined APIs."
   },
   {
     "id": "gen-l05-q7",
@@ -3944,14 +3944,14 @@
       "C",
       "D"
     ],
-    "explanation": "The API slide lists HTTP/REST, Kafka, gRPC, GraphQL, AMQP, MQTT, JMS. SMB/NFS are file-sharing protocols, not API mechanisms."
+    "explanation": "The API lists HTTP/REST, Kafka, gRPC, GraphQL, AMQP, MQTT, JMS. SMB/NFS are file-sharing protocols, not API mechanisms."
   },
   {
     "id": "gen-l05-q8",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "What does the 'micro' in microservices primarily refer to, according to the lecture?",
+    "question": "What does the 'micro' in microservices primarily refer to?",
     "options": [
       {
         "label": "A",
@@ -3973,7 +3973,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "The slide says 'micro' doesn't necessarily mean small; it refers to the scope of the service responsibility (SRP)."
+    "explanation": "The says 'micro' doesn't necessarily mean small; it refers to the scope of the service responsibility (SRP)."
   },
   {
     "id": "gen-l05-q9",
@@ -4003,14 +4003,14 @@
       "A",
       "B"
     ],
-    "explanation": "The Law of Demeter slide gives exactly those two formulations of the principle of least knowledge."
+    "explanation": "The Law of Demeter gives exactly those two formulations of the principle of least knowledge."
   },
   {
     "id": "gen-l05-q10",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "What does the lecture say about underlying technology of different microservices in a system?",
+    "question": "What does the say about underlying technology of different microservices in a system?",
     "options": [
       {
         "label": "A",
@@ -4039,7 +4039,7 @@
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "Which of the following statements about Docker containers are correct according to the lecture?",
+    "question": "Which of the following statements about Docker containers are correct?",
     "options": [
       {
         "label": "A",
@@ -4094,7 +4094,7 @@
       "B",
       "D"
     ],
-    "explanation": "The lecture's container-vs-VM slides specify exactly these differences. The hypervisor sits beneath VMs, not containers."
+    "explanation": "The's container-vs-VM specify exactly these differences. The hypervisor sits beneath VMs, not containers."
   },
   {
     "id": "gen-l05-q13",
@@ -4123,14 +4123,14 @@
     "correct": [
       "B"
     ],
-    "explanation": "The slide states Docker donated runc and the container image spec to the Open Container Initiative (OCI)."
+    "explanation": "States Docker donated runc and the container image spec to the Open Container Initiative (OCI)."
   },
   {
     "id": "gen-l05-q14",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "Which alternatives to Docker are mentioned on the standardization slide?",
+    "question": "Which alternatives to Docker are mentioned on the standardization?",
     "options": [
       {
         "label": "A",
@@ -4153,14 +4153,14 @@
       "A",
       "B"
     ],
-    "explanation": "The 'Docker - standardization' slide names Podman and Buildah as alternatives."
+    "explanation": "The 'Docker - standardization' names Podman and Buildah as alternatives."
   },
   {
     "id": "gen-l05-q15",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "Which Docker CLI commands are shown in the docker help slide?",
+    "question": "Which Docker CLI commands are shown in the docker help?",
     "options": [
       {
         "label": "A",
@@ -4196,7 +4196,7 @@
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "Kubernetes is described in the lecture as:",
+    "question": "Kubernetes is described as:",
     "options": [
       {
         "label": "A",
@@ -4220,7 +4220,7 @@
       "B",
       "D"
     ],
-    "explanation": "The Kubernetes slide gives exactly these descriptors. It is not a database."
+    "explanation": "The Kubernetes gives exactly these descriptors. It is not a database."
   },
   {
     "id": "gen-l05-q17",
@@ -4257,7 +4257,7 @@
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "What is a Kubernetes Deployment according to the lecture?",
+    "question": "What is a Kubernetes Deployment?",
     "options": [
       {
         "label": "A",
@@ -4312,14 +4312,14 @@
       "B",
       "C"
     ],
-    "explanation": "The OpenShift slide states all of A, B, C. It is not a replacement for Docker images."
+    "explanation": "The OpenShift states all of A, B, C. It is not a replacement for Docker images."
   },
   {
     "id": "gen-l05-q20",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "How does the lecture define a 'service mesh'?",
+    "question": "How would you define a 'service mesh'?",
     "options": [
       {
         "label": "A",
@@ -4341,7 +4341,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Istio's service mesh slide defines it as the network of microservices and their interactions."
+    "explanation": "Istio's service mesh defines it as the network of microservices and their interactions."
   },
   {
     "id": "gen-l05-q21",
@@ -4414,7 +4414,7 @@
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "What is the idea of a blue/green deployment as shown in the lecture?",
+    "question": "What is the idea of a blue/green deployment?",
     "options": [
       {
         "label": "A",
@@ -4468,14 +4468,14 @@
       "B",
       "C"
     ],
-    "explanation": "Email/CRM are SaaS, not IaaS. The other mappings follow the lecture's Cloud computing slide."
+    "explanation": "Email/CRM are SaaS, not IaaS. The other mappings follow the's Cloud computing."
   },
   {
     "id": "gen-l05-q25",
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "Which requirements does the lecture associate with cloud-native applications?",
+    "question": "Which requirements does the associate with cloud-native applications?",
     "options": [
       {
         "label": "A",
@@ -4576,7 +4576,7 @@
     "exam": "Generated-PA165",
     "topic": "Microservices",
     "tags": [],
-    "question": "What does Conway's law state, as quoted in the lecture?",
+    "question": "What does Conway's law state?",
     "options": [
       {
         "label": "A",
@@ -4598,7 +4598,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "The slide quotes Conway's law verbatim: the system design mirrors the organization's communication structure."
+    "explanation": "Quotes Conway's law verbatim: the system design mirrors the organization's communication structure."
   },
   {
     "id": "gen-l05-q29",
@@ -4680,7 +4680,7 @@
       "RPC",
       "history"
     ],
-    "question": "Which of the following statements about Remote Procedure Call (RPC) and related technologies are correct according to the lecture?",
+    "question": "Which of the following statements about Remote Procedure Call (RPC) and related technologies are correct?",
     "options": [
       {
         "label": "A",
@@ -4744,7 +4744,7 @@
     "tags": [
       "REST"
     ],
-    "question": "Which of the following are characteristics of REST as presented in the lecture?",
+    "question": "Which of the following are characteristics of REST?",
     "options": [
       {
         "label": "A",
@@ -4768,7 +4768,7 @@
       "B",
       "C"
     ],
-    "explanation": "The slides explicitly state that not every service using HTTP and JSON is RESTful."
+    "explanation": "The explicitly state that not every service using HTTP and JSON is RESTful."
   },
   {
     "id": "gen-l06-q4",
@@ -4875,7 +4875,7 @@
       "HTTP",
       "status codes"
     ],
-    "question": "Which HTTP status code class corresponds to client errors?",
+    "question": "Which HTTP status code corresponds to client errors?",
     "options": [
       {
         "label": "A",
@@ -4907,7 +4907,7 @@
       "HTTP",
       "status codes"
     ],
-    "question": "Which status codes were listed as examples in the lecture? (Select all that apply.)",
+    "question": "Which status codes were listed as examples? (Select all that apply.)?",
     "options": [
       {
         "label": "A",
@@ -4936,7 +4936,7 @@
       "C",
       "D"
     ],
-    "explanation": "The lecture listed 101, 200, 201, 301, 302, 401, 404, 500, 503 — not 418."
+    "explanation": "The standard HTTP status codes include 101, 200, 201, 301, 302, 401, 404, 500, and 503 — not 418."
   },
   {
     "id": "gen-l06-q9",
@@ -4979,7 +4979,7 @@
     "tags": [
       "Servlets"
     ],
-    "question": "Which statement best describes Java Servlets as presented in the lecture?",
+    "question": "Which statement best describes Java Servlets?",
     "options": [
       {
         "label": "A",
@@ -5011,7 +5011,7 @@
       "Spring MVC",
       "RestController"
     ],
-    "question": "According to the lecture, what are the two possible ways a Spring MVC RestController can return values?",
+    "question": "what are the two possible ways a Spring MVC RestController can return values?",
     "options": [
       {
         "label": "A",
@@ -5034,7 +5034,7 @@
       "A",
       "B"
     ],
-    "explanation": "The slides list exactly these two approaches."
+    "explanation": "List exactly these two approaches."
   },
   {
     "id": "gen-l06-q12",
@@ -5043,7 +5043,7 @@
     "tags": [
       "JSON"
     ],
-    "question": "Which statements about JSON (as covered in the lecture) are correct?",
+    "question": "Which statements about JSON  are correct?",
     "options": [
       {
         "label": "A",
@@ -5081,7 +5081,7 @@
     "tags": [
       "YAML"
     ],
-    "question": "Which of the following are true about YAML according to the slides?",
+    "question": "Which of the following are true about YAML?",
     "options": [
       {
         "label": "A",
@@ -5269,7 +5269,7 @@
       },
       {
         "label": "D",
-        "text": "DTOs and entities must always be the same class to avoid duplication."
+        "text": "DTOs and entities must always be the same to avoid duplication."
       }
     ],
     "correct": [
@@ -5374,7 +5374,7 @@
       },
       {
         "label": "D",
-        "text": "{ type: object, properties: {...} } -> generated java class with setters and getters"
+        "text": "{ type: object, properties: {...} } -> generated java with setters and getters"
       }
     ],
     "correct": [
@@ -5422,7 +5422,7 @@
       "C",
       "D"
     ],
-    "explanation": "In Java, forgetting nullable: true causes no problem according to the slide."
+    "explanation": "In Java, forgetting nullable: true causes no problem."
   },
   {
     "id": "gen-l06-q23",
@@ -5432,7 +5432,7 @@
       "OpenAPI",
       "enum"
     ],
-    "question": "Which mechanisms are valid ways to define enumeration types in OpenAPI according to the lecture?",
+    "question": "Which mechanisms are valid ways to define enumeration types in OpenAPI?",
     "options": [
       {
         "label": "A",
@@ -5440,7 +5440,7 @@
       },
       {
         "label": "B",
-        "text": "Define a Java enum class and annotate it with @Schema(enumAsRef = true) to produce a referenced schema in /components/schemas."
+        "text": "Define a Java enum and annotate it with @Schema(enumAsRef = true) to produce a referenced schema in /components/schemas."
       },
       {
         "label": "C",
@@ -5455,7 +5455,7 @@
       "A",
       "B"
     ],
-    "explanation": "The slides describe two ways: allowableValues, or an enum class with enumAsRef = true."
+    "explanation": "Describe two ways: allowableValues, or an enum with enumAsRef = true."
   },
   {
     "id": "gen-l06-q24",
@@ -5469,7 +5469,7 @@
     "options": [
       {
         "label": "A",
-        "text": "Using 'allOf: [$ref: ...]' to inherit all properties from a referenced type, plus a 'discriminator: { propertyName: ... }' to identify the subtype."
+        "text": "Using 'allOf: [$ref:...]' to inherit all properties from a referenced type, plus a 'discriminator: { propertyName:... }' to identify the subtype."
       },
       {
         "label": "B",
@@ -5537,7 +5537,7 @@
       "HTTP",
       "input"
     ],
-    "question": "According to the lecture, which input mechanism is best when data exceeds the practical size limits of URLs and HTTP headers (~4-8 kB)?",
+    "question": "which input mechanism is best when data exceeds the practical size limits of URLs and HTTP headers (~4-8 kB)?",
     "options": [
       {
         "label": "A",
@@ -5573,11 +5573,11 @@
     "options": [
       {
         "label": "A",
-        "text": "Unit tests run during the 'mvn test' phase via the sure-fire plugin; test class names must end in 'Test' or 'Tests'."
+        "text": "Unit tests run during the 'mvn test' phase via the sure-fire plugin; test names must end in 'Test' or 'Tests'."
       },
       {
         "label": "B",
-        "text": "Integration tests run during the 'mvn verify' phase via the fail-safe plugin; test class names must end in 'IT'."
+        "text": "Integration tests run during the 'mvn verify' phase via the fail-safe plugin; test names must end in 'IT'."
       },
       {
         "label": "C",
@@ -5664,7 +5664,7 @@
       "B",
       "C"
     ],
-    "explanation": "The library has no main(); the chat-client-java module is the runnable one that depends on it."
+    "explanation": "The library has no main; the chat-client-java module is the runnable one that depends on it."
   },
   {
     "id": "gen-l06-q30",
@@ -5674,7 +5674,7 @@
       "security",
       "authentication"
     ],
-    "question": "Which security schemes are explicitly shown in the lecture's openapi.yaml example?",
+    "question": "Which security schemes are explicitly shown's openapi.yaml example?",
     "options": [
       {
         "label": "A",
@@ -5705,7 +5705,7 @@
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "Which approaches for working with relational databases in Java are mentioned in the lecture?",
+    "question": "Which approaches for working with relational databases in Java are mentioned?",
     "options": [
       {
         "label": "A",
@@ -5729,7 +5729,7 @@
       "B",
       "C"
     ],
-    "explanation": "The slide lists JDBC, ORM (JPA/Hibernate), and iBATIS SQL map as ways to store/retrieve data in Java."
+    "explanation": "Lists JDBC, ORM (JPA/Hibernate), and iBATIS SQL map as ways to store/retrieve data in Java."
   },
   {
     "id": "gen-l07-q2",
@@ -5765,11 +5765,11 @@
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "Which annotations / requirements does a JPA entity class need according to the lecture?",
+    "question": "Which annotations / requirements does a JPA entity need?",
     "options": [
       {
         "label": "A",
-        "text": "@Entity on the class"
+        "text": "@Entity"
       },
       {
         "label": "B",
@@ -5781,7 +5781,7 @@
       },
       {
         "label": "D",
-        "text": "@Serializable on the class"
+        "text": "@Serializable"
       }
     ],
     "correct": [
@@ -5789,7 +5789,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'Entity' lists @Entity, @Id, and a non-parametric constructor."
+    "explanation": "'Entity' lists @Entity, @Id, and a non-parametric constructor."
   },
   {
     "id": "gen-l07-q4",
@@ -5819,7 +5819,7 @@
       "A",
       "B"
     ],
-    "explanation": "Per the 'Save/Find by ID' slide: insert is executed as late as possible and should run inside a transaction."
+    "explanation": "Per the 'Save/Find by ID': insert is executed as late as possible and should run inside a transaction."
   },
   {
     "id": "gen-l07-q5",
@@ -5848,7 +5848,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "The lecture states there is always one instance of entity identity per EntityManager/PersistenceContext."
+    "explanation": "States there is always one instance of entity identity per EntityManager/PersistenceContext."
   },
   {
     "id": "gen-l07-q6",
@@ -5879,14 +5879,14 @@
       "B",
       "C"
     ],
-    "explanation": "The ORM slide lists Long->int8, Integer->int4, String->varchar(255) for Postgres."
+    "explanation": "The ORM lists Long->int8, Integer->int4, String->varchar(255) for Postgres."
   },
   {
     "id": "gen-l07-q7",
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "What is the relationship between JPA and Hibernate as described in the lecture?",
+    "question": "What is the relationship between JPA and Hibernate?",
     "options": [
       {
         "label": "A",
@@ -5909,7 +5909,7 @@
       "A",
       "C"
     ],
-    "explanation": "Slide 'Java Persistence API': JPA is based on Hibernate (historically), Hibernate implements JPA, and you can unwrap the Hibernate Session."
+    "explanation": "'Java Persistence API': JPA is based on Hibernate (historically), Hibernate implements JPA, and you can unwrap the Hibernate Session."
   },
   {
     "id": "gen-l07-q8",
@@ -5940,7 +5940,7 @@
       "B",
       "C"
     ],
-    "explanation": "Per the 'Java EE vs Jakarta EE vs Spring' slide; Spring 7 / Spring Boot 4 adopts JPA 3.2."
+    "explanation": "Per the 'Java EE vs Jakarta EE vs Spring'; Spring 7 / Spring Boot 4 adopts JPA 3.2."
   },
   {
     "id": "gen-l07-q9",
@@ -5970,7 +5970,7 @@
       "A",
       "B"
     ],
-    "explanation": "Slide 'EntityManager vs EMF': EM = not thread safe, lightweight; EMF = heavy weight, thread safe, usually 1 per application."
+    "explanation": "'EntityManager vs EMF': EM = not thread safe, lightweight; EMF = heavy weight, thread safe, usually 1 per application."
   },
   {
     "id": "gen-l07-q10",
@@ -6000,7 +6000,7 @@
       "A",
       "B"
     ],
-    "explanation": "Slide 'Auto Generated Keys' lists IDENTITY column and SEQUENCE."
+    "explanation": "'Auto Generated Keys' lists IDENTITY column and SEQUENCE."
   },
   {
     "id": "gen-l07-q11",
@@ -6029,7 +6029,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "The slide notes that Identity requires the insert to be executed when persist is called (to obtain the generated key)."
+    "explanation": "Notes that Identity requires the insert to be executed when persist is called (to obtain the generated key)."
   },
   {
     "id": "gen-l07-q12",
@@ -6059,7 +6059,7 @@
       "A",
       "B"
     ],
-    "explanation": "Slide 'Gender enum' lists ORDINAL and STRING."
+    "explanation": "'Gender enum' lists ORDINAL and STRING."
   },
   {
     "id": "gen-l07-q13",
@@ -6090,7 +6090,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'Temporal Data Types' lists DATE, TIME, TIMESTAMP."
+    "explanation": "'Temporal Data Types' lists DATE, TIME, TIMESTAMP."
   },
   {
     "id": "gen-l07-q14",
@@ -6121,18 +6121,18 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'equals / hashCode' explicitly lists ID, Instance and Business equivalence."
+    "explanation": "'equals / hashCode' explicitly lists ID, Instance and Business equivalence."
   },
   {
     "id": "gen-l07-q15",
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "Which recommendations does the lecture give for implementing equals/hashCode on entities?",
+    "question": "Which recommendations does the give for implementing equals/hashCode on entities?",
     "options": [
       {
         "label": "A",
-        "text": "Use instanceof instead of getClass()"
+        "text": "Use instanceof instead of getClass"
       },
       {
         "label": "B",
@@ -6151,14 +6151,14 @@
       "A",
       "B"
     ],
-    "explanation": "The slide recommends 'instance of instead of getClass()' and getters on the other object, not direct access."
+    "explanation": "Recommends 'instance of instead of getClass' and getters on the other object, not direct access."
   },
   {
     "id": "gen-l07-q16",
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "Which Bean Validation annotations are mentioned in the lecture?",
+    "question": "Which Bean Validation annotations are mentioned?",
     "options": [
       {
         "label": "A",
@@ -6182,7 +6182,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'Bean Validation' lists @NotNull, @Min and @Past."
+    "explanation": "'Bean Validation' lists @NotNull, @Min and @Past."
   },
   {
     "id": "gen-l07-q17",
@@ -6212,14 +6212,14 @@
       "A",
       "C"
     ],
-    "explanation": "Slide 'Table rename': renaming is useful for reserved words like Order/User, and it is similar to @Column vs @Basic."
+    "explanation": "'Table rename': renaming is useful for reserved words like Order/User, and it is similar to @Column vs @Basic."
   },
   {
     "id": "gen-l07-q18",
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "Which definition best matches the Persistence Context as given on the slide?",
+    "question": "Which definition best matches the Persistence Context?",
     "options": [
       {
         "label": "A",
@@ -6241,7 +6241,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Direct quote from the 'Persistence Context' slide."
+    "explanation": "Direct quote from the 'Persistence Context'."
   },
   {
     "id": "gen-l07-q19",
@@ -6256,7 +6256,7 @@
       },
       {
         "label": "B",
-        "text": "find() or createQuery().get..."
+        "text": "find or createQuery.get..."
       },
       {
         "label": "C",
@@ -6287,7 +6287,7 @@
       },
       {
         "label": "B",
-        "text": "em.clear()"
+        "text": "em.clear"
       },
       {
         "label": "C",
@@ -6302,7 +6302,7 @@
       "A",
       "B"
     ],
-    "explanation": "Per the entity-states diagram: detach(e) and clear() detach a managed entity."
+    "explanation": "Per the entity-states diagram: detach(e) and clear detach a managed entity."
   },
   {
     "id": "gen-l07-q21",
@@ -6313,11 +6313,11 @@
     "options": [
       {
         "label": "A",
-        "text": "When flush() is called"
+        "text": "When flush is called"
       },
       {
         "label": "B",
-        "text": "On transaction commit()"
+        "text": "On transaction commit"
       },
       {
         "label": "C",
@@ -6333,14 +6333,14 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'Database Synchronization' lists flush, commit and 'whenever Hibernate thinks it's important'."
+    "explanation": "'Database Synchronization' lists flush, commit and 'whenever Hibernate thinks it's important'."
   },
   {
     "id": "gen-l07-q22",
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "Which flush modes are mentioned for em.setFlushMode()?",
+    "question": "Which flush modes are mentioned for em.setFlushMode?",
     "options": [
       {
         "label": "A",
@@ -6363,7 +6363,7 @@
       "A",
       "B"
     ],
-    "explanation": "Slide explicitly mentions AUTO vs COMMIT."
+    "explanation": "explicitly mentions AUTO vs COMMIT."
   },
   {
     "id": "gen-l07-q23",
@@ -6392,7 +6392,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "Slide 'Add Employee to Department' uses @ManyToOne Employee->Department and mentions CASCADE persist."
+    "explanation": "'Add Employee to Department' uses @ManyToOne Employee->Department and mentions CASCADE persist."
   },
   {
     "id": "gen-l07-q24",
@@ -6430,7 +6430,7 @@
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "What problems does the lecture associate with bidirectional mappings when querying 'all employees in a department'?",
+    "question": "What problems does the associate with bidirectional mappings when querying 'all employees in a department'?",
     "options": [
       {
         "label": "A",
@@ -6454,7 +6454,7 @@
       "B",
       "D"
     ],
-    "explanation": "Slide 'Get all employees in a Department' lists consistency, performance, fetch profile LAZY/EAGER, join fetch, and monitoring SQL query count."
+    "explanation": "'Get all employees in a Department' lists consistency, performance, fetch profile LAZY/EAGER, join fetch, and monitoring SQL query count."
   },
   {
     "id": "gen-l07-q26",
@@ -6485,7 +6485,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'Application managed EntityManager' lists SE/Spring, multi-transaction, RESOURCE_LOCAL; in Java EE containers, container-managed EM is more often used."
+    "explanation": "'Application managed EntityManager' lists SE/Spring, multi-transaction, RESOURCE_LOCAL; in Java EE containers, container-managed EM is more often used."
   },
   {
     "id": "gen-l07-q27",
@@ -6516,7 +6516,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'Data Access Object' lists these properties; @Repository enables exception translation away from raw SQLException."
+    "explanation": "'Data Access Object' lists these properties; @Repository enables exception translation away from raw SQLException."
   },
   {
     "id": "gen-l07-q28",
@@ -6557,14 +6557,14 @@
       "D",
       "E"
     ],
-    "explanation": "Slide 'Schema creation' lists create, create-drop, update, validate, none. 'migrate-all' is not a valid value."
+    "explanation": "'Schema creation' lists create, create-drop, update, validate, none. 'migrate-all' is not a valid value."
   },
   {
     "id": "gen-l07-q29",
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "How is the Criteria API described in the lecture compared to JPQL?",
+    "question": "How is the Criteria API described compared to JPQL?",
     "options": [
       {
         "label": "A",
@@ -6587,14 +6587,14 @@
       "A",
       "B"
     ],
-    "explanation": "Slide 'Criteria API' highlights type-safety and dynamic query construction."
+    "explanation": "'Criteria API' highlights type-safety and dynamic query construction."
   },
   {
     "id": "gen-l07-q30",
     "exam": "Generated-PA165",
     "topic": "Persistence I",
     "tags": [],
-    "question": "Which disadvantages of ORM are listed in the lecture?",
+    "question": "Which disadvantages of ORM are listed?",
     "options": [
       {
         "label": "A",
@@ -6606,7 +6606,7 @@
       },
       {
         "label": "C",
-        "text": "Introduces complicated bugs (equals()/hashCode(), cascading, concurrency)"
+        "text": "Introduces complicated bugs (equals/hashCode, cascading, concurrency)"
       },
       {
         "label": "D",
@@ -6618,7 +6618,7 @@
       "B",
       "C"
     ],
-    "explanation": "Slide 'Disadvantages of ORM' lists mastery difficulty, performance, and complicated bugs; switching DBs is listed under ADVANTAGES, not disadvantages."
+    "explanation": "'Disadvantages of ORM' lists mastery difficulty, performance, and complicated bugs; switching DBs is listed under ADVANTAGES, not disadvantages."
   },
   {
     "id": "gen-l08-q1",
@@ -6828,7 +6828,7 @@
       },
       {
         "label": "B",
-        "text": "queryName_param1_param2()"
+        "text": "queryName_param1_param2"
       },
       {
         "label": "C",
@@ -6852,7 +6852,7 @@
       "Spring Data",
       "query methods"
     ],
-    "question": "Why is existsByEmail() typically cheaper than findByEmail().isPresent()?",
+    "question": "Why is existsByEmail typically cheaper than findByEmail.isPresent?",
     "options": [
       {
         "label": "A",
@@ -6918,7 +6918,7 @@
       "downsides",
       "N+1"
     ],
-    "question": "What are downsides of using Spring Data JPA mentioned in the lecture?",
+    "question": "What are downsides of using Spring Data JPA mentioned?",
     "options": [
       {
         "label": "A",
@@ -6975,7 +6975,7 @@
       "A",
       "B"
     ],
-    "explanation": "JOIN FETCH and @EntityGraph are the recommended fixes shown in the slides."
+    "explanation": "JOIN FETCH and @EntityGraph are the recommended fixes."
   },
   {
     "id": "gen-l08-q12",
@@ -6993,7 +6993,7 @@
       },
       {
         "label": "B",
-        "text": "@Validated on a class to validate service methods"
+        "text": "@Validated on a to validate service methods"
       },
       {
         "label": "C",
@@ -7087,25 +7087,25 @@
     "options": [
       {
         "label": "A",
-        "text": "queryForObject()"
+        "text": "queryForObject"
       },
       {
         "label": "B",
-        "text": "query()"
+        "text": "query"
       },
       {
         "label": "C",
-        "text": "update()"
+        "text": "update"
       },
       {
         "label": "D",
-        "text": "call()"
+        "text": "call"
       }
     ],
     "correct": [
       "C"
     ],
-    "explanation": "update() is used for INSERT/UPDATE/DELETE; call() is for stored procedures."
+    "explanation": "update is used for INSERT/UPDATE/DELETE; call is for stored procedures."
   },
   {
     "id": "gen-l08-q16",
@@ -7169,7 +7169,7 @@
     "correct": [
       "B"
     ],
-    "explanation": "jdbcClient.sql() returns a StatementSpec for parameter binding before calling query() or update()."
+    "explanation": "jdbcClient.sql returns a StatementSpec for parameter binding before calling query or update."
   },
   {
     "id": "gen-l08-q18",
@@ -7212,7 +7212,7 @@
       "QBE",
       "limitations"
     ],
-    "question": "What are limitations of QBE according to the lecture?",
+    "question": "What are limitations of QBE?",
     "options": [
       {
         "label": "A",
@@ -7318,7 +7318,7 @@
       },
       {
         "label": "B",
-        "text": "Specifications can be composed using and(), or(), not()"
+        "text": "Specifications can be composed using and, or, not"
       },
       {
         "label": "C",
@@ -7343,7 +7343,7 @@
     "tags": [
       "comparison"
     ],
-    "question": "According to the lecture's comparison table, which technology has 'None' for type safety?",
+    "question": "'s comparison table, which technology has 'None' for type safety?",
     "options": [
       {
         "label": "A",
@@ -7440,7 +7440,7 @@
     "tags": [
       "optimizations"
     ],
-    "question": "Which general optimization recommendations are listed in the lecture?",
+    "question": "Which general optimization recommendations are listed?",
     "options": [
       {
         "label": "A",
@@ -7473,7 +7473,7 @@
     "tags": [
       "migrations"
     ],
-    "question": "Which of the following are database migration frameworks mentioned in the lecture?",
+    "question": "Which of the following are database migration frameworks mentioned?",
     "options": [
       {
         "label": "A",
@@ -7601,7 +7601,7 @@
     "exam": "Generated-PA165",
     "topic": "Messaging",
     "tags": [],
-    "question": "Which statements about synchronous communication are correct according to the lecture?",
+    "question": "Which statements about synchronous communication are correct?",
     "options": [
       {
         "label": "A",
@@ -7632,7 +7632,7 @@
     "exam": "Generated-PA165",
     "topic": "Messaging",
     "tags": [],
-    "question": "Which of the following is the best definition of messaging according to the lecture?",
+    "question": "Which of the following is the best definition of messaging?",
     "options": [
       {
         "label": "A",
@@ -7758,7 +7758,7 @@
       },
       {
         "label": "B",
-        "text": "A Java class that converts JSON to XML."
+        "text": "A Java that converts JSON to XML."
       },
       {
         "label": "C",
@@ -7902,7 +7902,7 @@
     "exam": "Generated-PA165",
     "topic": "Messaging",
     "tags": [],
-    "question": "Match the protocol with its typical use case as described in the lecture: which mappings are correct?",
+    "question": "Match the protocol with its typical use case: which mappings are correct?",
     "options": [
       {
         "label": "A",
@@ -8052,7 +8052,7 @@
     "exam": "Generated-PA165",
     "topic": "Messaging",
     "tags": [],
-    "question": "Which statements about Apache Kafka are correct according to the lecture?",
+    "question": "Which statements about Apache Kafka are correct?",
     "options": [
       {
         "label": "A",
@@ -8199,7 +8199,7 @@
     "exam": "Generated-PA165",
     "topic": "Messaging",
     "tags": [],
-    "question": "Which Spring JMS parts are described in the lecture?",
+    "question": "Which Spring JMS parts are described?",
     "options": [
       {
         "label": "A",
@@ -8420,7 +8420,7 @@
       },
       {
         "label": "C",
-        "text": "CLIENT_ACKNOWLEDGE requires JMS clients to acknowledge by calling the message's acknowledge() method."
+        "text": "CLIENT_ACKNOWLEDGE requires JMS clients to acknowledge by calling the message's acknowledge method."
       },
       {
         "label": "D",
@@ -8470,7 +8470,7 @@
     "exam": "Generated-PA165",
     "topic": "Messaging",
     "tags": [],
-    "question": "Which statements about messaging system monitoring are correct according to the lecture?",
+    "question": "Which statements about messaging system monitoring are correct?",
     "options": [
       {
         "label": "A",
@@ -8523,7 +8523,7 @@
     "correct": [
       "A"
     ],
-    "explanation": "The lecture defines metrics, traces, and logs as the three pillars of observability telemetry."
+    "explanation": "Defines metrics, traces, and logs as the three pillars of observability telemetry."
   },
   {
     "id": "gen-l10-q2",
@@ -8559,7 +8559,7 @@
     "exam": "Generated-PA165",
     "topic": "Metrics",
     "tags": [],
-    "question": "Which statements about metrics are correct? (Select all that apply)",
+    "question": "Which statements about metrics are correct? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -8619,7 +8619,7 @@
     "exam": "Generated-PA165",
     "topic": "Traces",
     "tags": [],
-    "question": "Why is sampling commonly used for tracing? (Select all that apply)",
+    "question": "Why is sampling commonly used for tracing? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -8680,7 +8680,7 @@
     "exam": "Generated-PA165",
     "topic": "Health",
     "tags": [],
-    "question": "Which are the three Kubernetes-defined health probe types mentioned in the lecture?",
+    "question": "Which are the three Kubernetes-defined health probe types mentioned?",
     "options": [
       {
         "label": "A",
@@ -8767,7 +8767,7 @@
     "exam": "Generated-PA165",
     "topic": "Spring Boot Actuator",
     "tags": [],
-    "question": "Which statements about Actuator endpoints are correct? (Select all that apply)",
+    "question": "Which statements about Actuator endpoints are correct? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -8849,14 +8849,14 @@
     "correct": [
       "A"
     ],
-    "explanation": "management.endpoints.web.exposure.include (and .exclude) controls which endpoints are exposed over HTTP."
+    "explanation": "management.endpoints.web.exposure.include (and.exclude) controls which endpoints are exposed over HTTP."
   },
   {
     "id": "gen-l10-q13",
     "exam": "Generated-PA165",
     "topic": "Spring Boot Actuator",
     "tags": [],
-    "question": "Match the actuator HTTP endpoints to their purpose. Which of the following pairings are correct? (Select all that apply)",
+    "question": "Match the actuator HTTP endpoints to their purpose. Which of the following pairings are correct? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -8892,7 +8892,7 @@
     "exam": "Generated-PA165",
     "topic": "Custom Endpoints",
     "tags": [],
-    "question": "Which annotations are used when building a custom Actuator endpoint? (Select all that apply)",
+    "question": "Which annotations are used when building a custom Actuator endpoint? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -8965,7 +8965,7 @@
       },
       {
         "label": "B",
-        "text": "Extend AbstractActuator class"
+        "text": "Extend AbstractActuator"
       },
       {
         "label": "C",
@@ -9015,7 +9015,7 @@
     "exam": "Generated-PA165",
     "topic": "Kubernetes Probes",
     "tags": [],
-    "question": "Which statements about Kubernetes probes in Spring Boot Actuator are correct? (Select all that apply)",
+    "question": "Which statements about Kubernetes probes in Spring Boot Actuator are correct? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9058,7 +9058,7 @@
       },
       {
         "label": "C",
-        "text": "Annotate fields with @Info on the application class"
+        "text": "Annotate fields with @Info on the application"
       },
       {
         "label": "D",
@@ -9075,7 +9075,7 @@
     "exam": "Generated-PA165",
     "topic": "Micrometer",
     "tags": [],
-    "question": "Which statements about Micrometer are correct? (Select all that apply)",
+    "question": "Which statements about Micrometer are correct? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9164,7 +9164,7 @@
     "exam": "Generated-PA165",
     "topic": "Tags",
     "tags": [],
-    "question": "Which statements about Observation tags / cardinality are correct? (Select all that apply)",
+    "question": "Which statements about Observation tags / cardinality are correct? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9195,7 +9195,7 @@
     "exam": "Generated-PA165",
     "topic": "Observation API",
     "tags": [],
-    "question": "Which additional Observation concepts are mentioned in the lecture? (Select all that apply)",
+    "question": "Which additional Observation concepts are mentioned? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9242,7 +9242,7 @@
       },
       {
         "label": "D",
-        "text": "Add @EnableObservation on a @Configuration class only"
+        "text": "Add @EnableObservation on a @Configuration only"
       }
     ],
     "correct": [
@@ -9255,7 +9255,7 @@
     "exam": "Generated-PA165",
     "topic": "Metrics",
     "tags": [],
-    "question": "Which metric backends are mentioned as supported by Spring Boot Actuator via Micrometer? (Select all that apply)",
+    "question": "Which metric backends are mentioned as supported by Spring Boot Actuator via Micrometer? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9291,7 +9291,7 @@
     "exam": "Generated-PA165",
     "topic": "Prometheus",
     "tags": [],
-    "question": "Which statements about Prometheus integration are correct? (Select all that apply)",
+    "question": "Which statements about Prometheus integration are correct? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9351,7 +9351,7 @@
     "exam": "Generated-PA165",
     "topic": "Tracing",
     "tags": [],
-    "question": "Which tracing auto-configurations are supported by Spring Boot 3? (Select all that apply)",
+    "question": "Which tracing auto-configurations are supported by Spring Boot 3? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9382,7 +9382,7 @@
     "exam": "Generated-PA165",
     "topic": "Observability Testing",
     "tags": [],
-    "question": "Which components are used for observability testing in Spring Boot? (Select all that apply)",
+    "question": "Which components are used for observability testing in Spring Boot? (Select all that apply)?",
     "options": [
       {
         "label": "A",
@@ -9418,7 +9418,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "Which of the following correctly describe authentication and authorization as defined in the lecture?",
+    "question": "Which of the following correctly describe authentication and authorization?",
     "options": [
       {
         "label": "A",
@@ -9449,7 +9449,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "Which of the following are authentication options on the Internet mentioned in the lecture?",
+    "question": "Which of the following are authentication options on the Internet mentioned?",
     "options": [
       {
         "label": "A",
@@ -9474,14 +9474,14 @@
       "C",
       "D"
     ],
-    "explanation": "All listed are valid Internet authentication options per the lecture."
+    "explanation": "All listed are valid Internet authentication options."
   },
   {
     "id": "gen-l11-q3",
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "Which password hashing/storage approach does the lecture recommend an identity provider should use?",
+    "question": "Which password hashing/storage approach should an identity provider use?",
     "options": [
       {
         "label": "A",
@@ -9510,7 +9510,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "According to the lecture, what should an application developer do about storing passwords?",
+    "question": "what should an application developer do about storing passwords?",
     "options": [
       {
         "label": "A",
@@ -9532,14 +9532,14 @@
     "correct": [
       "B"
     ],
-    "explanation": "The lecture advises developers to outsource authentication to a federated identity provider rather than storing passwords."
+    "explanation": "The advises developers to outsource authentication to a federated identity provider rather than storing passwords."
   },
   {
     "id": "gen-l11-q5",
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "Which parties are involved in a SAML federation as described in the lecture?",
+    "question": "Which parties are involved in a SAML federation?",
     "options": [
       {
         "label": "A",
@@ -9760,7 +9760,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "Which OAuth 2 authorization grant types are marked as deprecated in the lecture?",
+    "question": "Which OAuth 2 authorization grant types are marked?",
     "options": [
       {
         "label": "A",
@@ -9908,7 +9908,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "Which JOSE header parameters were listed in the lecture?",
+    "question": "Which JOSE header parameters were listed?",
     "options": [
       {
         "label": "A",
@@ -9980,7 +9980,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "According to the lecture warning, why should JWTs not be used for user sessions?",
+    "question": "warning, why should JWTs not be used for user sessions?",
     "options": [
       {
         "label": "A",
@@ -10011,7 +10011,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "How is OpenID Connect described in the lecture?",
+    "question": "How is OpenID Connect described?",
     "options": [
       {
         "label": "A",
@@ -10164,7 +10164,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "According to the lecture, why are external OAuth2 resource servers not possible with Google as the authorization server?",
+    "question": "why are external OAuth2 resource servers not possible with Google as the authorization server?",
     "options": [
       {
         "label": "A",
@@ -10313,7 +10313,7 @@
     "exam": "Generated-PA165",
     "topic": "Security",
     "tags": [],
-    "question": "Which are practical WebAuthn/passkeys options listed in the lecture?",
+    "question": "Which are practical WebAuthn/passkeys options listed?",
     "options": [
       {
         "label": "A",
@@ -10349,7 +10349,7 @@
     "exam": "Generated-PA165",
     "topic": "CI/CD",
     "tags": [],
-    "question": "Which of the following are reasons given in the lecture for needing CI/CD?",
+    "question": "Which of the following are reasons given for needing CI/CD?",
     "options": [
       {
         "label": "A",
@@ -10373,14 +10373,14 @@
       "B",
       "C"
     ],
-    "explanation": "The lecture lists frequent releases, solving the works-on-my-machine problem, and automation of testing/deployment as motivations for CI/CD."
+    "explanation": "Lists frequent releases, solving the works-on-my-machine problem, and automation of testing/deployment as motivations for CI/CD."
   },
   {
     "id": "gen-l12-q2",
     "exam": "Generated-PA165",
     "topic": "DevOps",
     "tags": [],
-    "question": "According to the GitLab definition cited in the lecture, DevOps combines which two areas?",
+    "question": "According to the GitLab definition cited, DevOps combines which two areas?",
     "options": [
       {
         "label": "A",
@@ -10409,7 +10409,7 @@
     "exam": "Generated-PA165",
     "topic": "DevOps",
     "tags": [],
-    "question": "Which activities are part of the DevOps lifecycle as presented in the lecture?",
+    "question": "Which activities are part of the DevOps lifecycle?",
     "options": [
       {
         "label": "A",
@@ -10445,7 +10445,7 @@
     "exam": "Generated-PA165",
     "topic": "DevOps vs CI/CD",
     "tags": [],
-    "question": "How does the lecture distinguish CI/CD from DevOps?",
+    "question": "How does CI/CD differ from DevOps?",
     "options": [
       {
         "label": "A",
@@ -10468,14 +10468,14 @@
       "A",
       "B"
     ],
-    "explanation": "The slides quote both definitions and treat CI/CD as practices for code delivery while DevOps is a broader collection of ideas, practices, processes, and technologies."
+    "explanation": "Quote both definitions and treat CI/CD as practices for code delivery while DevOps is a broader collection of ideas, practices, processes, and technologies."
   },
   {
     "id": "gen-l12-q5",
     "exam": "Generated-PA165",
     "topic": "Continuous Integration",
     "tags": [],
-    "question": "Which statements about Continuous Integration (CI) match the lecture?",
+    "question": "Which statements about Continuous Integration (CI) match the?",
     "options": [
       {
         "label": "A",
@@ -10499,14 +10499,14 @@
       "B",
       "C"
     ],
-    "explanation": "The lecture defines CI as rapid feedback, integration into main as fast as possible, with unit tests playing the key role."
+    "explanation": "Defines CI as rapid feedback, integration into main as fast as possible, with unit tests playing the key role."
   },
   {
     "id": "gen-l12-q6",
     "exam": "Generated-PA165",
     "topic": "Unit Tests",
     "tags": [],
-    "question": "In the lecture, what does \"State Testing\" of a unit refer to?",
+    "question": "what does \"State Testing\" of a unit refer to?",
     "options": [
       {
         "label": "A",
@@ -10528,14 +10528,14 @@
     "correct": [
       "A"
     ],
-    "explanation": "State Testing asserts properties of an object (e.g., assertEquals(1, personRepository.getCount()))."
+    "explanation": "State Testing asserts properties of an object (e.g., assertEquals(1, personRepository.getCount))."
   },
   {
     "id": "gen-l12-q7",
     "exam": "Generated-PA165",
     "topic": "Unit Tests",
     "tags": [],
-    "question": "What is \"Interaction Testing\" according to the lecture?",
+    "question": "What is \"Interaction Testing\"?",
     "options": [
       {
         "label": "A",
@@ -10564,7 +10564,7 @@
     "exam": "Generated-PA165",
     "topic": "Continuous Delivery",
     "tags": [],
-    "question": "Which statements about Continuous Delivery (CD) match the lecture?",
+    "question": "Which statements about Continuous Delivery (CD) match the?",
     "options": [
       {
         "label": "A",
@@ -10593,14 +10593,14 @@
       "C",
       "D"
     ],
-    "explanation": "The lecture defines Continuous Delivery as automating delivery via pipelines, with integration tests playing a key role, covering every action up to production deployment."
+    "explanation": "Defines Continuous Delivery as automating delivery via pipelines, with integration tests playing a key role, covering every action up to production deployment."
   },
   {
     "id": "gen-l12-q9",
     "exam": "Generated-PA165",
     "topic": "Continuous Deployment",
     "tags": [],
-    "question": "Which best describes Continuous Deployment as defined in the lecture?",
+    "question": "Which best describes Continuous Deployment?",
     "options": [
       {
         "label": "A",
@@ -10629,7 +10629,7 @@
     "exam": "Generated-PA165",
     "topic": "Continuous Delivery vs Deployment",
     "tags": [],
-    "question": "According to the CD vs CD diagram in the lecture, what is the key difference between Continuous Delivery and Continuous Deployment?",
+    "question": "According to the CD vs CD diagram, what is the key difference between Continuous Delivery and Continuous Deployment?",
     "options": [
       {
         "label": "A",
@@ -10658,7 +10658,7 @@
     "exam": "Generated-PA165",
     "topic": "CI/CD Workflow",
     "tags": [],
-    "question": "Which stages appear in the typical CI/CD GitLab pipeline workflow shown in the lecture?",
+    "question": "Which stages appear in the typical CI/CD GitLab pipeline workflow shown?",
     "options": [
       {
         "label": "A",
@@ -10694,7 +10694,7 @@
     "exam": "Generated-PA165",
     "topic": "Pull Requests",
     "tags": [],
-    "question": "According to the lecture's Pull Request workflow, what is the correct sequence of steps?",
+    "question": "'s Pull Request workflow, what is the correct sequence of steps?",
     "options": [
       {
         "label": "A",
@@ -10723,7 +10723,7 @@
     "exam": "Generated-PA165",
     "topic": "Branching Strategies",
     "tags": [],
-    "question": "Which branching strategies are discussed in the lecture?",
+    "question": "Which branching strategies are discussed?",
     "options": [
       {
         "label": "A",
@@ -10752,14 +10752,14 @@
       "C",
       "D"
     ],
-    "explanation": "The lecture covers Centralized, Feature Branch, Forking, and Gitflow workflows. Recursive Backtracking is fabricated."
+    "explanation": "Covers Centralized, Feature Branch, Forking, and Gitflow workflows. Recursive Backtracking is fabricated."
   },
   {
     "id": "gen-l12-q14",
     "exam": "Generated-PA165",
     "topic": "Branching Strategies",
     "tags": [],
-    "question": "Which statements about the Centralized Workflow match the lecture?",
+    "question": "Which statements about the Centralized Workflow match the?",
     "options": [
       {
         "label": "A",
@@ -10821,7 +10821,7 @@
     "exam": "Generated-PA165",
     "topic": "Gitflow",
     "tags": [],
-    "question": "According to the lecture, which statements about Gitflow are correct?",
+    "question": "which statements about Gitflow are correct?",
     "options": [
       {
         "label": "A",
@@ -10852,7 +10852,7 @@
     "exam": "Generated-PA165",
     "topic": "CI/CD Pipelines",
     "tags": [],
-    "question": "Match the GitLab pipeline term to its definition as given in the lecture.",
+    "question": "Match the GitLab pipeline term to its definition.",
     "options": [
       {
         "label": "A",
@@ -10876,7 +10876,7 @@
       "B",
       "C"
     ],
-    "explanation": "The lecture defines Runner as the execution agent, Stages as the grouping keyword with parallel jobs within a stage, and Job as the runner's instruction."
+    "explanation": "Defines Runner as the execution agent, Stages as the grouping keyword with parallel jobs within a stage, and Job as the runner's instruction."
   },
   {
     "id": "gen-l12-q18",
@@ -10887,7 +10887,7 @@
     "options": [
       {
         "label": "A",
-        "text": "It is defined in a file named .gitlab-ci.yml"
+        "text": "It is defined in a file named.gitlab-ci.yml"
       },
       {
         "label": "B",
@@ -10907,7 +10907,7 @@
       "B",
       "C"
     ],
-    "explanation": "Pipelines are defined in .gitlab-ci.yml using YAML; scripts are grouped into jobs forming the pipeline."
+    "explanation": "Pipelines are defined in.gitlab-ci.yml using YAML; scripts are grouped into jobs forming the pipeline."
   },
   {
     "id": "gen-l12-q19",
@@ -10945,7 +10945,7 @@
     "exam": "Generated-PA165",
     "topic": "GitLab Jobs",
     "tags": [],
-    "question": "Which statements about GitLab jobs are correct according to the slides?",
+    "question": "Which statements about GitLab jobs are correct?",
     "options": [
       {
         "label": "A",
@@ -11049,7 +11049,7 @@
       },
       {
         "label": "B",
-        "text": "cache — keeps some files between different jobs (e.g., .m2 dependencies)"
+        "text": "cache — keeps some files between different jobs (e.g..m2 dependencies)"
       },
       {
         "label": "C",
@@ -11070,14 +11070,14 @@
       "C",
       "D"
     ],
-    "explanation": "All of when/cache/artifact/tag descriptions match the slides; option E is incorrect."
+    "explanation": "All of when/cache/artifact/tag descriptions match the; option E is incorrect."
   },
   {
     "id": "gen-l12-q24",
     "exam": "Generated-PA165",
     "topic": "CI/CD Environments",
     "tags": [],
-    "question": "Which environments are listed in the lecture as examples?",
+    "question": "Which environments are listed as examples?",
     "options": [
       {
         "label": "A",
@@ -11101,7 +11101,7 @@
       "B",
       "C"
     ],
-    "explanation": "The slides mention review, staging, and production environments."
+    "explanation": "Mention review, staging, and production environments."
   },
   {
     "id": "gen-l12-q25",
@@ -11131,14 +11131,14 @@
       "A",
       "B"
     ],
-    "explanation": "The slide explains that pipelines run in their own Docker instance and DinD enables running Docker containers inside the pipeline container."
+    "explanation": "Explains that pipelines run in their own Docker instance and DinD enables running Docker containers inside the pipeline container."
   },
   {
     "id": "gen-l12-q26",
     "exam": "Generated-PA165",
     "topic": "CI Best Practices",
     "tags": [],
-    "question": "Which of the following are CI best practices mentioned in the lecture?",
+    "question": "Which of the following are CI best practices mentioned?",
     "options": [
       {
         "label": "A",
@@ -11172,14 +11172,14 @@
       "D",
       "E"
     ],
-    "explanation": "All listed items except F are explicit CI best practices in the slides."
+    "explanation": "All listed items except F are explicit CI best practices."
   },
   {
     "id": "gen-l12-q27",
     "exam": "Generated-PA165",
     "topic": "Pipeline Security",
     "tags": [],
-    "question": "According to the OWASP Top 10 CI/CD Security Risks introduced in the lecture, which item corresponds to CICD-SEC-1?",
+    "question": "According to the OWASP Top 10 CI/CD Security Risks introduced, which item corresponds to CICD-SEC-1?",
     "options": [
       {
         "label": "A",
@@ -11208,7 +11208,7 @@
     "exam": "Generated-PA165",
     "topic": "Pipeline Security",
     "tags": [],
-    "question": "Which of the following are forms of Dependency Chain Abuse (CICD-SEC-3) according to the lecture?",
+    "question": "Which of the following are forms of Dependency Chain Abuse (CICD-SEC-3)?",
     "options": [
       {
         "label": "A",
@@ -11237,7 +11237,7 @@
       "C",
       "D"
     ],
-    "explanation": "The slide lists dependency confusion, hijacking, typosquatting, and brandjacking under CICD-SEC-3. Insufficient logging is SEC-10."
+    "explanation": "Lists dependency confusion, hijacking, typosquatting, and brandjacking under CICD-SEC-3. Insufficient logging is SEC-10."
   },
   {
     "id": "gen-l12-q29",
@@ -11268,14 +11268,14 @@
       "B",
       "C"
     ],
-    "explanation": "The lecture defines PPE generally and distinguishes direct (config file) and indirect (artifacts/scripts) variants."
+    "explanation": "Defines PPE generally and distinguishes direct (config file) and indirect (artifacts/scripts) variants."
   },
   {
     "id": "gen-l12-q30",
     "exam": "Generated-PA165",
     "topic": "Pipeline Security",
     "tags": [],
-    "question": "Match each CICD-SEC risk identifier with its name as given in the lecture.",
+    "question": "Match each CICD-SEC risk identifier with its name.",
     "options": [
       {
         "label": "A",
@@ -11304,6 +11304,6 @@
       "C",
       "D"
     ],
-    "explanation": "The slides label SEC-5 as Insufficient PBAC, SEC-6 as Insufficient Credential Hygiene, SEC-9 as Improper Artifact Integrity Validation, and SEC-10 as Insufficient Logging and Visibility."
+    "explanation": "The label SEC-5 as Insufficient PBAC, SEC-6 as Insufficient Credential Hygiene, SEC-9 as Improper Artifact Integrity Validation, and SEC-10 as Insufficient Logging and Visibility."
   }
 ]
